@@ -1,0 +1,89 @@
+@use "mixins";
+@use "animations" as animations;
+
+@font-face {
+  font-family: 'Rubik Variable';
+  src: url('/assets/fonts/Rubik-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900; /* Range supported by the variable font */
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Cherry Bomb One';
+  src: url('/assets/fonts/CherryBombOne-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Caveat';
+  src: url('/assets/fonts/Caveat-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900; /* Range supported by the variable font */
+  font-style: normal;
+  font-display: swap;
+}
+
+html {
+    font-family: var(--body-font);
+    scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+    font-size: 24px;
+    line-height: 1.4;
+}
+
+ol,
+li {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+section {
+    .section-header {
+        text-align: center;
+
+        h2 {
+            font-family: var(--title-font);
+            font-weight: 400;
+            color: white;
+            -webkit-text-stroke: 10px #F1C31C;
+            paint-order: stroke fill;
+
+            @include mixins.rs(
+                ('font-size', 56, 72)
+            )
+        }
+
+        p {
+            margin-top: 10px;
+            max-width: 800px;
+            @include mixins.r('font-size', 21, 24);
+            opacity: 0.8;
+            text-wrap: balance;
+        }
+
+        &.-yellow {
+            h2 {
+                color: var(--yellow);
+                -webkit-text-stroke: 0;
+            }
+        }
+
+        &.-white {
+            h2 {
+                -webkit-text-stroke: 0;
+            }
+
+            p {
+                color: white;
+            }
+        }
+    }
+}

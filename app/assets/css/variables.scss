@@ -1,0 +1,21 @@
+@use "animations";
+
+$small-width: 640px;
+$large-width: 1024px;
+$huge-width: 1281px;
+$mega-width: 1601px;
+
+:root {
+	--title-font: 'Cherry Bomb One', sans-serif;
+	--body-font: 'Rubik Variable', sans-serif;
+	--scribble-font: 'Caveat', sans-serif;
+
+	--yellow: #FFD230;
+	--green: #97B30A;
+	--orange: #FA7D39;
+	--grey: #8F9096;
+	--purple: #7772E0;
+	--brown: #8A554D;
+	--blue: #362ED0;
+	--red: #D02E49;
+}
