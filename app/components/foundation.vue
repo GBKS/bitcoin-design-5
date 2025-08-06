@@ -64,11 +64,6 @@ import info from '@/data/foundation.js';
     width: 100%;
     display: flex;
     gap: 40px;
-
-    > * {
-      flex-basis: 15%;
-      flex-grow: 1;
-    }
   }
 
   @include mixins.media-query(small) {
@@ -77,15 +72,14 @@ import info from '@/data/foundation.js';
     }
 
     .crew {
-      flex-direction: column;
-      gap: 60px;
+      // flex-direction: column;
+      flex-wrap: wrap;
+      gap: 20px;
     }
   }
 
   @include mixins.media-query(medium-up) {
-    .items {
-      
-    }
+    
   }
 }
 

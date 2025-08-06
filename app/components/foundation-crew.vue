@@ -16,16 +16,19 @@ const props = defineProps({
       :srcset="'/images/foundation/' + info.image + '.jpg 1x, /images/foundation/' + info.image + '@2x.jpg 2x'"
       alt=""
     >
-    <h4>{{ info.name }}</h4>
-    <p>{{ info.role }}</p>
+    <div class="info">
+      <h4>{{ info.name }}</h4>
+      <p>{{ info.role }}</p>
+    </div>
   </div>
 </template>
 
 <style scoped lang="scss">
 
+@use "@/assets/css/mixins.scss";
+
 .foundation-crew {
   display: flex;
-  flex-direction: column;
   align-items: center;
 
   img {
@@ -35,17 +38,36 @@ const props = defineProps({
     object-fit: cover;
   }
 
-  h4 {
-    margin-top: 20px;
-    font-weight: 500;
-    font-size: 24px;
-    color: white;
+  .info {
+    h4 {
+      font-size: 24px;
+      font-weight: 400;
+      color: white;
+    }
+
+    p {
+      margin-top: 5px;
+      font-size: 19px;
+      color: #D4D4D4;
+    }
   }
 
-  p {
-    margin-top: 10px;
-    font-size: 21px;
-    color: #D4D4D4;
+  @include mixins.media-query(small) {
+    flex-basis: 40%;
+    flex-grow: 1;
+    gap: 15px;
+  }
+
+  @include mixins.media-query(medium-up) {
+    flex-basis: 15%;
+    flex-grow: 1;
+    flex-direction: column;
+
+    .info {
+      margin-top: 20px;
+      text-align: center;
+    }
+
   }
 }
 

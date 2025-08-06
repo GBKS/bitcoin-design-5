@@ -26,8 +26,8 @@ const classObject = computed(() => {
     :data-year="info.date"
   >
     <img
+      v-if="info.image"
       :src="'/images/milestones/' + info.image + '.jpg'"
-      :srcset="'/images/milestones/' + info.image + '.jpg 1x, /images/milestones/' + info.image + '@2x.jpg 2x'"
       alt=""
     >
     <div class="copy">

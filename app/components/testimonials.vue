@@ -47,7 +47,8 @@ import testimonials from '@/data/testimonials.js';
 
   @include mixins.media-query(small) {
     .items {
-      
+      padding-left: 20px;
+      padding-right: 20px;
     }
   }
 

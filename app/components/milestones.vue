@@ -68,7 +68,7 @@ function updatePosition() {
   // Clamp within container bounds
   let targetTopAdjusted = Math.max(0, Math.min(targetTop, containerRect.height - yearDisplay.value.offsetHeight));
   
-  console.log('Top', targetTop, targetTopAdjusted);
+  // console.log('Top', targetTop, targetTopAdjusted);
 
   yearDisplayTop.value = targetTop;
   // yearDisplay.style.top = `${targetTop}px`;

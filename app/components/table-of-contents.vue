@@ -73,7 +73,7 @@ import Icons from '@/helpers/icons.js'
     }
 
     nav {
-      padding: 25px 15px;
+      padding: 25px 0;
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       grid-template-rows: repeat(7, auto);

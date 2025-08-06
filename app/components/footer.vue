@@ -17,11 +17,18 @@
       >Add to calendar</a>
     </div>
     <div class="illustration">
-      <img
-        src="/images/footer.png"
-        srcset="/images/footer.png 1x, /images/footer@2x.png 2x"
-        alt=""
-      >
+
+      <picture>
+        <source 
+          media="(min-width: 768px)" 
+          srcset="/images/footer.jpg 1x, /images/footer@2x.jpg 2x"
+        >
+        <img 
+          src="/images/footer-mobile.jpg"
+          srcset="/images/footer-mobile.jpg 1x, /images/footer-mobile@2x.jpg 2x"
+          alt="Bitcoin Design Banner Background"
+        />
+      </picture>
     </div>
   </section>
 </template>
@@ -34,7 +41,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 75px 15px 0 15px;
+  padding-top: 75px;
   position: relative;
   
   .copy {
@@ -42,6 +49,8 @@
     flex-direction: column;
     align-items: center;
     gap: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
 
     h2 {
       font-family: var(--title-font);
@@ -83,10 +92,12 @@
 
   .illustration {
     width: 100%;
-    
-    img {
-      width: 100%;
-      height: auto;
+
+    picture {
+      img {
+        width: 100%;
+        height: auto;
+      }
     }
   }
 }

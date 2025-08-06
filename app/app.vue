@@ -16,6 +16,7 @@
       <Stories />
       <Highlights />
       <Testimonials />
+      <Mapper v-if="false" />
       <Map />
     </div>
     <div class="stripe -black">

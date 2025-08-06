@@ -43,6 +43,7 @@ import info from '@/data/behind-the-scenes.js';
   gap: 50px;
   padding: 75px 15px;
   max-width: 1340px;
+  border-top: 1px dashed white;
 
   .content {
     .illustration {
@@ -70,6 +71,14 @@ import info from '@/data/behind-the-scenes.js';
       display: flex;
       flex-direction: column;
       gap: 25px;
+    }
+  }
+
+  @include mixins.media-query(small) {
+    .content {
+      .items {
+        margin-top: 40px;
+      }
     }
   }
 

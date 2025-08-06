@@ -6,8 +6,8 @@
   <section class="join" id="join">
     <div class="illustration">
       <img
-        src="/images/join.png"
-        srcset="/images/join.png 1x, /images/join@2x.png 2x"
+        src="/images/join.jpg"
+        srcset="/images/join.jpg 1x, /images/join@2x.jpg 2x"
         alt=""
       >
     </div>

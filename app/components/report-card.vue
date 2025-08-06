@@ -191,6 +191,32 @@ import Icons from '@/helpers/icons.js'
     }
   }
 
+  @include mixins.media-query(small) {
+    .content {
+      .stats {
+        .cell {
+          &.-header {
+            position: relative;
+
+            :nth-child(2) {
+              position: absolute;
+              top: 30px;
+              right: 30px;
+            }
+
+            h4 {
+              margin-top: 20px;
+            }
+          }
+
+          &:not(.-header) {
+            
+          }
+        }
+      }
+    }
+  }
+
   @include mixins.media-query(large) {
     .content {
       .stats {

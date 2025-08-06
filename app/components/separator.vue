@@ -24,6 +24,8 @@ const classObject = computed(() => {
 
 <style scoped lang="scss">
 
+@use "@/assets/css/mixins.scss";
+
 .separator {
   width: 100%;
   max-width: 500px;
@@ -63,6 +65,10 @@ const classObject = computed(() => {
         border-color: white;
       }
     }
+  }
+
+  @include mixins.media-query(small) {
+    max-width: calc(100vw - 40px);
   }
 }
 
