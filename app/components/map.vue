@@ -66,7 +66,8 @@ function hideCountry(countryCode) {
 }
 
 const countryLabel = computed(() => {
-  let result = 'Relative activity by country';
+  // let result = 'Relative activity by country';
+  let result = null;
   if (activeCountry.value) {
     const country = countryData[activeCountry.value];
     if (country) {
@@ -92,8 +93,8 @@ onMounted(() => {
     </div>
 
     <div class="content">
-      <p class="stat">{{ countryLabel }}</p>
-      
+      <p :class="'stat' + (activeCountry ? ' -active' : '')">{{ countryLabel }}</p>
+
       <div class="dot-map">
         <template v-if="countryColors">
           <div
@@ -134,28 +135,38 @@ onMounted(() => {
     aspect-ratio: 2.31;
     padding: 30px 0;
     box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.35);
+    position: relative;
 
     .stat {
       text-align: center;
       color: var(--purple);
-      font-size: 17px;
+      font-size: 24px;
       font-weight: 500;
+      pointer-events: none;
+      opacity: 0;
+      position: absolute;
+      top: 15px;
+      left: 50%;
+      transform: translateX(-50%);
+      transition: opacity 0.3s ease-in-out;
+
+      &.-active {
+        opacity: 1;
+      }
     }
 
     .dot-map {
-      margin-top: 15px;
       width: 100%;
       aspect-ratio: 2.31;
       position: relative;
-      // background-color: rgba(255, 0, 0, 0.1);
 
       .dot {
         position: absolute;
         width: 0.85%;
         aspect-ratio: 1;
-        border-radius: 50%;
-        background-color: rgba(black, 0.1);
         transform: translate(-50%, -50%);
+        width: 1.2%;
+        padding: 0.15%;
 
         div {
           width: 100%;
@@ -163,13 +174,18 @@ onMounted(() => {
           border-radius: 50%;
           background-color: var(--purple);
           opacity: 0;
-        }
 
-        // &[data-id="CA"] {
-        //   width: 5%;
-        //   border: 2px solid white;
-        //   z-index: 10;
-        // }
+          &:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            background-color: rgba(black, 0.025);
+          }
+        }
       }
     }
   }

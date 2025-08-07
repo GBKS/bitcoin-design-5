@@ -2,520 +2,518 @@ export default {
   data: [
     {
       name: "10101 Finance",
-      link: "https://example.com/project1",
+      link: "https://github.com/BitcoinDesign/Meta/issues/600",
       image: '10101.svg',
-      website: "https://project1.com",
-      tags: ["2023", "Design Review"]
+      tags: ["2023", "Design Review", "Lightning"]
     },
     {
       name: "Alby",
-      link: "https://example.com/project2",
+      link: "https://github.com/BitcoinDesign/Meta/issues/113",
       image: 'alby.svg',
-      website: "https://project2.com",
-      tags: ["2021", "Collaboration"]
+      website: "https://getalby.com",
+      tags: ["2021", "Branding", "Community", "Lightning"]
     },
     {
       name: "Bitcoin Development Kit (BDK)",
-      link: "https://example.com/project2",
+      link: "https://github.com/BitcoinDesign/Meta/issues/718",
       image: 'bdk.svg',
-      website: "https://project2.com",
-      tags: ["2022", "Collaboration"]
+      website: "https://bitcoindevkit.org",
+      tags: ["2024", "Research", "Branding", "Collaboration"]
     },
     {
       name: "Bipa Wallet",
-      link: "https://example.com/project2",
+      link: "https://x.com/bitcoin_design/status/1891917254758994345",
       image: 'bipa.png',
-      website: "https://project2.com",
-      tags: ["2022", "Collaboration"]
+      website: "https://bipa.app/wallet",
+      tags: ["2025", "Bootcamp"]
     },
     {
       name: "Blink",
-      link: "https://example.com/project2",
+      link: "",
       image: 'blink.svg',
-      website: "https://project2.com",
+      website: "",
       tags: ["2022", "Collaboration"]
     },
     {
       name: "Bitcoin Core App",
-      link: "https://example.com/project1",
+      link: "https://github.com/BitcoinDesign/Meta/issues/8",
       image: 'bitcoin-core-app.svg',
-      website: "https://project1.com",
-      tags: ["2022", "Privacy"]
+      website: "https://bitcoincore.app",
+      tags: ["2020", "Collaboration"]
     },
     {
       name: "Bitcoin Icons",
-      link: "https://example.com/project2",
+      link: "https://github.com/BitcoinDesign/Meta/issues/72",
       image: 'bitcoin-icons.svg',
-      website: "https://project2.com",
-      tags: ["2022", "Collaboration"]
+      website: "https://bitcoinicons.com",
+      tags: ["2021", "Resources"]
     },
     {
       name: "Blixt",
-      link: "https://example.com/project2",
+      link: "",
       image: 'blixt.png',
-      website: "https://project2.com",
+      website: "",
       tags: ["2022", "Collaboration"]
     },
     {
       name: "Border Wallets",
-      link: "https://example.com/project2",
+      link: "",
       image: 'border-wallets.png',
-      website: "https://project2.com",
+      website: "",
       tags: ["2022", "Collaboration"]
     },
     {
       name: "Damus",
-      link: "https://example.com/project2",
+      link: "",
       image: 'damus.png',
-      website: "https://project2.com",
+      website: "",
       tags: ["2022", "Collaboration"]
     },
     {
       name: "Bitcoin UX Research Toolkit",
-      link: "https://example.com/project1",
+      link: "",
       image: 'bitcoin-ux-research-toolkit.svg',
-      website: "https://project1.com",
+      website: "",
       tags: ["2022", "Privacy"]
     },
     {
       name: "BitcoinQR",
-      link: "https://example.com/project2",
+      link: "",
       image: 'bitcoin-qr.svg',
-      website: "https://project2.com",
+      website: "",
       tags: ["2022", "Collaboration"]
     },
     {
       name: "Bitnob",
-      link: "https://example.com/project2",
+      link: "",
       image: 'bitnob.svg',
-      website: "https://project2.com",
+      website: "",
       tags: ["2022", "Collaboration"]
     },
     {
       name: "Bitsacco",
-      link: "https://example.com/project2",
+      link: "",
       image: 'bitsacco.png',
-      website: "https://project2.com",
+      website: "",
       tags: ["2022", "Collaboration"]
     },
     {
       name: "Geyser",
-      link: "https://example.com/project2",
+      link: "",
       image: 'geyser.svg',
-      website: "https://project2.com",
+      website: "",
       tags: ["2022", "Collaboration"]
     },
     {
       name: "Blockstream App",
-      link: "https://example.com/project1",
+      link: "",
       image: 'blockstream.svg',
-      website: "https://project1.com",
+      website: "",
       tags: ["2022", "Privacy"]
     },
     {
       name: "Blue Wallet",
-      link: "https://example.com/project2",
+      link: "",
       image: 'blue-wallet.png',
-      website: "https://project2.com",
+      website: "",
       tags: ["2022", "Collaboration"]
     },
     {
       name: "Bolt12.org",
-      link: "https://example.com/project2",
+      link: "",
       image: 'bolt12.png',
-      website: "https://project2.com",
+      website: "https://bolt12.org",
       tags: ["2022", "Collaboration"]
     },
     {
       name: "Bolt.Fun",
-      link: "https://example.com/project2",
-      image: 'bolt-fun.svg',
-      website: "https://project2.com",
+      link: "",
+      image: 'bolt-fun.png',
       tags: ["2022", "Collaboration"]
     },
     {
       name: "Lawallet",
-      link: "https://example.com/project2",
+      link: "",
       image: 'lawallet.png',
-      website: "https://project2.com",
+      website: "",
       tags: ["2022", "Collaboration"]
     },
     {
       name: "Breez",
-      link: "https://example.com/project1",
+      link: "",
       image: 'breez.svg',
-      website: "https://project1.com",
+      website: "https://breez.technology",
       tags: ["2022", "Privacy"]
     },
     {
       name: "BTC Prague",
-      link: "https://example.com/project2",
+      link: "",
       image: 'btc-prague.svg',
-      website: "https://project2.com",
-      tags: ["2022", "Collaboration"]
+      website: "https://btcprague.com/",
+      tags: ["2022", "Organization"]
     },
     {
       name: "BTCMap",
-      link: "https://example.com/project2",
+      link: "",
       image: 'btcmap.svg',
-      website: "https://project2.com",
-      tags: ["2022", "Collaboration"]
+      website: "",
+      tags: ["2025", "Design review", "User testing"]
     },
     {
       name: "BTCPay",
-      link: "https://example.com/project2",
+      link: "",
       image: 'btcpay.svg',
-      website: "https://project2.com",
+      website: "",
       tags: ["2022", "Collaboration"]
     },
     {
       name: "Mutiny",
-      link: "https://example.com/project2",
+      link: "",
       image: 'mutiny.svg',
-      website: "https://project2.com",
+      website: "",
       tags: ["2022", "Collaboration"]
     },
     {
       name: "Dana Wallet",
-      link: "https://example.com/project1",
+      link: "",
       image: 'dana-wallet.png',
-      website: "https://project1.com",
+      website: "",
       tags: ["2022", "Privacy"]
     },
     {
       name: "European Bitcoiners",
-      link: "https://example.com/project2",
+      link: "",
       image: 'european-bitcoiners.png',
-      website: "https://project2.com",
+      website: "",
       tags: ["2022", "Collaboration"]
     },
     {
       name: "Fedimint",
-      link: "https://example.com/project2",
+      link: "https://github.com/BitcoinDesign/Meta/issues/521",
       image: 'fedimint.png',
-      website: "https://project2.com",
-      tags: ["2022", "Collaboration"]
+      website: "https://fedimint.org",
+      tags: ["2023", "Collaboration"]
     },
     {
       name: "Lana",
-      link: "https://example.com/project2",
+      link: "",
       image: 'lana.svg',
-      website: "https://project2.com",
+      website: "",
       tags: ["2022", "Collaboration"]
     },
     {
       name: "Padawan",
-      link: "https://example.com/project2",
+      link: "",
       image: 'padawan.svg',
-      website: "https://project2.com",
+      website: "",
       tags: ["2022", "Collaboration"]
     },
     {
       name: "Hello Bitcoin",
-      link: "https://example.com/project1",
+      link: "",
       image: 'hello-bitcoin.png',
-      website: "https://project1.com",
+      website: "",
       tags: ["2022", "Privacy"]
     },
     {
       name: "Joinmarket Web UI (JAM)",
-      link: "https://example.com/project2",
+      link: "",
       image: 'joinmarket-web-ui.png',
-      website: "https://project2.com",
+      website: "",
       tags: ["2022", "Collaboration"]
     },
     {
       name: "Keeper",
-      link: "https://example.com/project2",
+      link: "",
       image: 'keeper.svg',
-      website: "https://project2.com",
+      website: "",
       tags: ["2022", "Collaboration"]
     },
     {
       name: "Krystal Bull",
-      link: "https://example.com/project2",
+      link: "",
       image: 'krystal-bull.png',
-      website: "https://project2.com",
+      website: "",
       tags: ["2022", "Collaboration"]
     },
     {
       name: "Resolvr",
-      link: "https://example.com/project2",
+      link: "",
       image: 'resolvr.svg',
-      website: "https://project2.com",
+      website: "",
       tags: ["2022", "Collaboration"]
     },
     {
       name: "Liana Wallet",
-      link: "https://example.com/project1",
+      link: "",
       image: 'liana.png',
-      website: "https://project1.com",
+      website: "",
       tags: ["2022", "Privacy"]
     },
     {
       name: "Lightning Dev Kit (LDK)",
-      link: "https://example.com/project2",
+      link: "",
       image: 'ldk.svg',
-      website: "https://project2.com",
+      website: "",
       tags: ["2022", "Collaboration"]
     },
     {
       name: "Machankura",
-      link: "https://example.com/project2",
+      link: "",
       image: 'machankura.svg',
-      website: "https://project2.com",
+      website: "",
       tags: ["2022", "Collaboration"]
     },
     {
       name: "Mostro",
-      link: "https://example.com/project2",
+      link: "",
       image: 'mostro.png',
-      website: "https://project2.com",
+      website: "",
       tags: ["2022", "Collaboration"]
     },
     {
       name: "Satsymbol.org",
-      link: "https://example.com/project2",
+      link: "",
       image: 'satsymbol.png',
-      website: "https://project2.com",
-      tags: ["2022", "Collaboration"]
+      website: "",
+      tags: ["2024", "Design review"]
     },
     {
       name: "Muun",
-      link: "https://example.com/project1",
+      link: "",
       image: 'muun.png',
-      website: "https://project1.com",
+      website: "",
       tags: ["2022", "Privacy"]
     },
     {
       name: "Open Design Guide",
-      link: "https://example.com/project2",
+      link: "",
       image: 'open-design-guide.png',
-      website: "https://project2.com",
-      tags: ["2022", "Collaboration"]
+      website: "https://opendesign.guide",
+      tags: ["2024", "Resources"]
     },
     {
       name: "Open Sats",
-      link: "https://example.com/project2",
+      link: "",
       image: 'open-sats.png',
-      website: "https://project2.com",
+      website: "",
       tags: ["2022", "Collaboration"]
     },
     {
       name: "Oshi",
-      link: "https://example.com/project2",
+      link: "",
       image: 'oshi.svg',
-      website: "https://project2.com",
+      website: "",
       tags: ["2022", "Collaboration"]
     },
     {
       name: "Sovran",
-      link: "https://example.com/project2",
+      link: "",
       image: 'sovran.png',
-      website: "https://project2.com",
-      tags: ["2022", "Collaboration"]
+      website: "",
+      tags: ["2022", "Collaboration", "Ecash"]
     },
     {
       name: "Payjoin",
-      link: "https://example.com/project1",
+      link: "",
       image: 'payjoin.svg',
-      website: "https://project1.com",
+      website: "",
       tags: ["2022", "Privacy"]
     },
     {
       name: "Peach Wallet",
-      link: "https://example.com/project2",
+      link: "",
       image: 'peach-wallet.png',
-      website: "https://project2.com",
+      website: "",
       tags: ["2022", "Collaboration"]
     },
     {
       name: "Penpot",
-      link: "https://example.com/project2",
+      link: "",
       image: 'penpot.svg',
-      website: "https://project2.com",
+      website: "",
       tags: ["2022", "Collaboration"]
     },
     {
       name: "Proton Wallet",
-      link: "https://example.com/project2",
+      link: "",
       image: 'proton-wallet.svg',
-      website: "https://project2.com",
-      tags: ["2022", "Collaboration"]
+      website: "",
+      tags: ["2022", "Design review", "Privacy"]
     },
     {
       name: "Tiankii",
-      link: "https://example.com/project2",
+      link: "",
       image: 'tiankii.png',
-      website: "https://project2.com",
+      website: "",
       tags: ["2022", "Collaboration"]
     },
     {
       name: "Revault",
-      link: "https://example.com/project1",
+      link: "",
       image: 'revault.png',
-      website: "https://project1.com",
+      website: "",
       tags: ["2022", "Privacy"]
     },
     {
       name: "Robosats",
-      link: "https://example.com/project2",
+      link: "",
       image: 'robosats.png',
-      website: "https://project2.com",
+      website: "",
       tags: ["2022", "Collaboration"]
     },
     {
       name: "SafeBits",
-      link: "https://example.com/project2",
+      link: "",
       image: 'safebits.png',
-      website: "https://project2.com",
+      website: "",
       tags: ["2022", "Collaboration"]
     },
     {
       name: "Satlantis",
-      link: "https://example.com/project2",
+      link: "",
       image: 'satlantis.png',
-      website: "https://project2.com",
-      tags: ["2022", "Collaboration"]
+      website: "",
+      tags: ["2022", "Design review", "Game"]
     },
     {
       name: "Wallet of Satoshi",
-      link: "https://example.com/project2",
+      link: "",
       image: 'wallet-of-satoshi.svg',
-      website: "https://project2.com",
+      website: "",
       tags: ["2022", "Collaboration"]
     },
     {
       name: "Save our Wallets",
-      link: "https://example.com/project1",
+      link: "",
       image: 'save-our-wallets.svg',
-      website: "https://project1.com",
-      tags: ["2022", "Privacy"]
+      website: "",
+      tags: ["2025", "Privacy"]
     },
     {
       name: "Saving Satoshi",
-      link: "https://example.com/project2",
+      link: "",
       image: 'saving-satoshi.png',
-      website: "https://project2.com",
-      tags: ["2022", "Collaboration"]
+      website: "",
+      tags: ["2022", "Collaboration", "Education", "Game"]
     },
     {
       name: "Sifir",
-      link: "https://example.com/project2",
+      link: "",
       image: 'sifir.png',
-      website: "https://project2.com",
+      website: "",
       tags: ["2022", "Collaboration"]
     },
     {
       name: "Simple Crypto",
-      link: "https://example.com/project2",
+      link: "",
       image: 'simple-crypto.png',
-      website: "https://project2.com",
+      website: "",
       tags: ["2022", "Collaboration"]
     },
     {
       name: "Bitcoin Layers",
-      link: "https://example.com/project2",
+      link: "",
       image: 'bitcoin-layers.svg',
-      website: "https://project2.com",
+      website: "",
       tags: ["2022", "Collaboration"]
     },
     {
       name: "Specter",
-      link: "https://example.com/project1",
-      image: 'specter.svg',
-      website: "https://project1.com",
+      link: "",
+      image: 'specter.png',
+      website: "",
       tags: ["2022", "Privacy"]
     },
     {
       name: "Stratum V2",
-      link: "https://example.com/project2",
+      link: "",
       image: 'stratum-v2.png',
-      website: "https://project2.com",
+      website: "",
       tags: ["2022", "Collaboration"]
     },
     {
       name: "Summer of Bitcoin",
-      link: "https://example.com/project2",
+      link: "",
       image: 'summer-of-bitcoin.png',
-      website: "https://project2.com",
+      website: "",
       tags: ["2022", "Collaboration"]
     },
     {
       name: "Tando",
-      link: "https://example.com/project2",
+      link: "",
       image: 'tando.svg',
-      website: "https://project2.com",
+      website: "",
       tags: ["2022", "Collaboration"]
     },
     {
       name: "Bitcoin Smiles",
-      link: "https://example.com/project2",
+      link: "",
       image: 'bitcoin-smiles.svg',
-      website: "https://project2.com",
+      website: "",
       tags: ["2022", "Collaboration"]
     },
     {
       name: "TwelveCash",
-      link: "https://example.com/project1",
+      link: "",
       image: 'twelve-cash.png',
-      website: "https://project1.com",
+      website: "",
       tags: ["2022", "Privacy"]
     },
     {
       name: "uMlando",
-      link: "https://example.com/project2",
+      link: "",
       image: 'umlando.png',
-      website: "https://project2.com",
+      website: "",
       tags: ["2022", "Collaboration"]
     },
     {
       name: "Voltage",
-      link: "https://example.com/project2",
+      link: "",
       image: 'voltage.svg',
-      website: "https://project2.com",
+      website: "",
       tags: ["2022", "Collaboration"]
     },
     {
       name: "VoltPay",
-      link: "https://example.com/project2",
+      link: "",
       image: 'voltpay.svg',
-      website: "https://project2.com",
+      website: "",
       tags: ["2022", "Collaboration"]
     },
     {
       name: "Bitcoin UI Kit",
-      link: "https://example.com/project2",
+      link: "",
       image: 'bitcoin-ui-kit.svg',
-      website: "https://project2.com",
+      website: "https://www.bitcoinuikit.com",
       tags: ["2022", "Collaboration"]
     },
     {
       name: "WalletScrutiny",
-      link: "https://example.com/project1",
+      link: "",
       image: 'walletscrutiny.png',
-      website: "https://project1.com",
+      website: "https://walletscrutiny.com",
       tags: ["2022", "Privacy"]
     },
     {
       name: "WhenTaproot",
-      link: "https://example.com/project2",
+      link: "",
       image: 'whentaproot.png',
-      website: "https://project2.com",
+      website: "https://whentaproot.org",
       tags: ["2022", "Collaboration"]
     },
     {
       name: "White Noise",
-      link: "https://example.com/project2",
+      link: "",
       image: 'white-noise.svg',
-      website: "https://project2.com",
+      website: "",
       tags: ["2022", "Collaboration"]
     },
     {
       name: "Zeus",
-      link: "https://example.com/project2",
+      link: "",
       image: 'zeus.png',
-      website: "https://project2.com",
+      website: "https://zeusln.com",
       tags: ["2022", "Collaboration"]
     }
   ]
