@@ -13,14 +13,14 @@
         <img 
           src="/images/header-mobile.jpg"
           srcset="/images/header-mobile.jpg 1x, /images/header-mobile@2x.jpg 2x"
-          alt="Bitcoin Design Banner Background"
+          alt="Colorful illustration featuring a diverse group of six people standing together against a bright yellow background filled with floating creative tools and objects like paintbrushes, rulers, phones, and art supplies. The group includes people of various ethnicities and styles - some wearing casual clothes, others in more formal attire. Two small robot characters are positioned at the bottom corners of the group. The overall style is vibrant and cartoon-like, suggesting themes of creativity, collaboration, and technology."
         />
       </picture>
     </div>
     <div class="copy">
       <h1>5 years of<br/>Bitcoin Design</h1>
       <h2>Designing Bitcoin For Everyone, With Everyone</h2>
-      <p>Five years. Hundreds of calls. Thousands of contributors. One global design community building Bitcoin UX in public.</p>
+      <p>2020 - 2025. Five years. Hundreds of calls. Thousands of contributors. One global design community building Bitcoin UX in public.</p>
     </div>
   </section>
 </template>

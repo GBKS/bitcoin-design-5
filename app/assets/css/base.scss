@@ -45,6 +45,42 @@ li {
     margin-bottom: 0;
 }
 
+.-button {
+    border-radius: 100px;
+    padding: 12px 25px;
+    font-size: 24px;
+    font-weight: 500;
+    text-decoration: none;
+    
+
+    &.--outline {
+        border: 2px solid black;
+        color: black;
+
+        &.--black {
+            border-color: black;
+        }
+
+        &.--yellow {
+            border-color: var(--yellow);
+        }
+    }
+
+    &.--filled {
+        background-color: black;
+        color: white;
+
+        &.--black {
+
+        }
+
+        &.--yellow {
+            background-color: var(--yellow);
+            color: black;
+        }
+    }
+}
+
 section {
     .section-header {
         text-align: center;

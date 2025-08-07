@@ -21,32 +21,32 @@ export default {
     {
       name: "Mo",
       role: "Admin",
-      image: "placeholder"
+      image: "mogashni"
     },
     {
       name: "Christoph",
       role: "Admin",
-      image: "placeholder"
+      image: "christoph"
     },
     {
       name: "Daniel",
       role: "Admin",
-      image: "placeholder"
+      image: "daniel"
     },
     {
       name: "Basak",
       role: "Board",
-      image: "placeholder"
+      image: "basak"
     },
     {
       name: "Conor",
       role: "Board",
-      image: "placeholder"
+      image: "conor"
     },
     {
       name: "Johns",
       role: "Board",
-      image: "placeholder"
+      image: "johns"
     }
   ]
 }

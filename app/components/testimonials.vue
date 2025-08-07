@@ -2,6 +2,16 @@
 
 import testimonials from '@/data/testimonials.js';
 
+const activeOverlay = ref(null);
+const maxVisibleLength = 200;
+
+const openOverlay = (info) => {
+  console.log('Opening overlay for:', info);
+  if (info.description.length > maxVisibleLength) {
+    activeOverlay.value = info;
+  }
+};
+
 </script>
 
 <template>
@@ -19,8 +29,17 @@ import testimonials from '@/data/testimonials.js';
         :key="index"
         :index="index"
         :info="info"
+        :maxVisibleLength="maxVisibleLength"
+        @click="openOverlay(info)"
+      />
+
+      <TestimonialOverlay
+        v-if="activeOverlay"
+        :info="activeOverlay"
+        @close="activeOverlay = null"
       />
     </div>
+
   </section>
 </template>
 
@@ -43,6 +62,7 @@ import testimonials from '@/data/testimonials.js';
     flex-wrap: wrap;
     align-items: flex-start;
     gap: 40px;
+    position: relative;
   }
 
   @include mixins.media-query(small) {

@@ -27,9 +27,12 @@ const sourceSet = computed(() => {
       rel="noopener noreferrer"
     >
       <img
-      :src="'/images/projects/' + info.image"
-      :srcset="sourceSet"
-      alt=""
+        :src="'/images/projects/' + info.image"
+        :srcset="sourceSet"
+        :alt="info.name"
+        loading="lazy"
+        width="80"
+        height="80"
       />
       <h4>{{ info.name }}</h4>
     </Component>

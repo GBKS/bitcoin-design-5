@@ -11,9 +11,8 @@
       <p>Only 5 years until we’ll publish it. Set a reminder in your calendar to be the first one to hear about it.</p>
       <a
         class="-button --filled --black"
-        href="#"
-        rel="me"
-        target="_blank" 
+        href="/bitcoin-design-10th-anniversary.ics"
+        download="Bitcoin Design 10th Anniversary.ics"
       >Add to calendar</a>
     </div>
     <div class="illustration">
@@ -26,7 +25,8 @@
         <img 
           src="/images/footer-mobile.jpg"
           srcset="/images/footer-mobile.jpg 1x, /images/footer-mobile@2x.jpg 2x"
-          alt="Bitcoin Design Banner Background"
+          alt="Illustration of a creative workspace with a bright yellow background. A white keyboard sits in the center surrounded by scattered art supplies including colored pencils in a container, paintbrushes, a paint palette, and various small objects. A tablet or device displaying colorful interface elements is visible on the left side. The scene has a playful, artistic atmosphere with small decorative elements scattered throughout."
+          loading="lazy"
         />
       </picture>
     </div>
@@ -72,20 +72,7 @@
       display: inline-block;
 
       &.-button {
-        border-radius: 100px;
-        padding: 12px 25px;
-        font-size: 24px;
-        font-weight: 500;
-        text-decoration: none;
-
-        &.--filled {
-          background-color: black;
-          color: white;
-
-          &.--black {
-
-          }
-        }
+        
       }
     }
   }

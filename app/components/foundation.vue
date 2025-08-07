@@ -8,10 +8,17 @@ import info from '@/data/foundation.js';
   <section class="foundation" id="foundation">
     <Separator color="white" />
 
-    <div class="section-header -white">
+    <div class="section-header -yellow -white">
       <h2>The Foundation</h2>
       <p>The Bitcoin Design Foundation exists to sustain and amplify community efforts.</p>
     </div>
+
+      <a
+        class="-button --filled --yellow"
+        href="https://bitcoindesignfoundation.org/"
+        rel="me"
+        target="_blank" 
+      >Visit the website</a>
 
     <div class="items">
       <FoundationItem

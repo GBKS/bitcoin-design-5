@@ -8,7 +8,7 @@ import learnings from '@/data/learnings.js';
   <section class="learnings" id="learnings">
     <Separator color="white" />
     
-    <div class="section-header -white">
+    <div class="section-header -yellow -white">
       <h2>What we've Learned</h2>
       <p>Insights gathered from five years of collaborative Bitcoin design.</p>
     </div>

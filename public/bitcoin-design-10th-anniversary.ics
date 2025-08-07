@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bitcoin Design Community//10th Anniversary//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+
+BEGIN:VEVENT
+UID:bitcoin-design-10th-anniversary-2030@example.com
+DTSTAMP:20250807T120000Z
+DTSTART:20300701T180000Z
+DTEND:20300701T220000Z
+SUMMARY:Bitcoin Design Community 10th Anniversary Celebration 🎉
+DESCRIPTION:Join us in celebrating 10 incredible years of the Bitcoin Design Community! \n\nSince 2020, our community has been dedicated to improving the design and user experience of Bitcoin and open-source tools. This milestone marks a decade of collaboration, innovation, and building beautiful, usable Bitcoin experiences.\n\nCome celebrate with designers, developers, and Bitcoin enthusiasts from around the world as we reflect on our journey and look toward the future of Bitcoin design.\n\nFor more information, visit the Bitcoin Design Community website or check our community channels.
+LOCATION:TBD - Check community channels for updates
+URL:https://bitcoin.design
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+CATEGORIES:ANNIVERSARY,BITCOIN,DESIGN,COMMUNITY
+PRIORITY:5
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Bitcoin Design Community 10th Anniversary in 1 day
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Bitcoin Design Community 10th Anniversary in 1 hour
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+
+END:VCALENDAR

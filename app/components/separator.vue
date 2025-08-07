@@ -68,7 +68,7 @@ const classObject = computed(() => {
   }
 
   @include mixins.media-query(small) {
-    max-width: calc(100vw - 40px);
+    max-width: calc(100vw - 80px);
   }
 }
 

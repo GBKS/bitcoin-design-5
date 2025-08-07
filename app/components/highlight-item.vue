@@ -32,6 +32,7 @@ const props = defineProps({
     width: 100%;
     height: auto;
     border-radius: 25px;
+    box-shadow: 0 15px 30px -20px rgba(0, 0, 0, 0.35);
   }
 
   h4 {

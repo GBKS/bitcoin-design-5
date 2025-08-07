@@ -29,6 +29,9 @@ const classObject = computed(() => {
       v-if="info.image"
       :src="'/images/milestones/' + info.image + '.jpg'"
       alt=""
+      loading="lazy"
+      width="150"
+      height="150"
     >
     <div class="copy">
       <h3>{{ info.name }}</h3>
@@ -48,10 +51,11 @@ const classObject = computed(() => {
   display: flex;
   align-items: center;
   backdrop-filter: blur(15px);
-  background-color: rgba(white, 0.75);
+  background-color: rgba(white, 0.5);
   max-width: 320px;
   text-decoration: none;
   gap: 10px;
+  box-shadow: 0 10px 20px -8px rgba(0, 0, 0, 0.25);
 
   img {
     border-radius: 5px;

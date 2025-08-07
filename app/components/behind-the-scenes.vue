@@ -17,7 +17,9 @@ import info from '@/data/behind-the-scenes.js';
         <img
           src="/images/court.png"
           srcset="/images/court.png 1x, /images/court@2x.png 2x"
-          alt=""
+          alt="Sports strategy diagram-style illustration with a coral red background resembling a football or basketball playbook. White geometric elements including circles, arrows, dotted lines, X marks, and squares are arranged to look like player positions and movement patterns on a field or court. Text reading 'Bitcoin Design Guide' appears in white in the upper portion. The design mimics the classic chalk-on-board aesthetic of coaches drawing up plays, applied as a creative visual metaphor for design strategy."
+          width="642"
+          height="419"
         >
       </div>
 

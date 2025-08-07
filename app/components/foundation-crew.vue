@@ -13,8 +13,10 @@ const props = defineProps({
   <div class="foundation-crew">
     <img
       :src="'/images/foundation/' + info.image + '.jpg'"
-      :srcset="'/images/foundation/' + info.image + '.jpg 1x, /images/foundation/' + info.image + '@2x.jpg 2x'"
-      alt=""
+      :alt="info.name"
+      loading="lazy"
+      width="150"
+      height="150"
     >
     <div class="info">
       <h4>{{ info.name }}</h4>
