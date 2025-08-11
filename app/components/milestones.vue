@@ -147,6 +147,7 @@ onMounted(() => {
     gap: 20px;
     position: relative;
     overflow: hidden;
+    padding-bottom: 20px;
 
     .year-display {
       position: absolute;

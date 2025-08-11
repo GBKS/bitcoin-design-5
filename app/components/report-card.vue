@@ -20,42 +20,69 @@ import Icons from '@/helpers/icons.js'
           <h4>Name:</h4>
           <p>Bitcoin Design Community</p>
         </div>
-        <div class="cell">
+        <a
+          class="cell"
+          href="#projects"
+        >
           <h4>Projects improved:</h4>
           <p>80+</p>
-        </div>
-        <div class="cell">
-          <h4>Educational calls:</h4>
-          <p>143</p>
-        </div>
-        <div class="cell">
+        </a>
+        <a
+          class="cell"
+          href="https://github.com/BitcoinDesign/Meta/issues?q=is%3Aissue%20state%3Aclosed%20label%3Acall"
+        >
+          <h4>Community calls:</h4>
+          <p>631</p>
+        </a>
+        <a
+          class="cell"
+          href="https://www.bitcoinuikit.com/"
+        >
           <h4>Figma community file users:</h4>
           <p>15.8k+</p>
-        </div>
-        <div class="cell">
+        </a>
+        <a
+          class="cell"
+          href="https://bitcoin.design/guide/"
+        >
           <h4>Bitcoin Design Guide content:</h4>
           <p>95 pages<br/>588 mockups</p>
-        </div>
-        <div class="cell">
+        </a>
+        <a
+          class="cell"
+          href="https://github.com/BitcoinDesign/Guide/pulls?q=is%3Apr+is%3Aclosed"
+        >
           <h4>Bitcoin Design Guide activity:</h4>
           <p>3,590 commits<br/>66 contributors</p>
-        </div>
-        <div class="cell">
+        </a>
+        <a
+          class="cell"
+          href="https://bitcoinicons.com/"
+        >
           <h4>Bitcoin Icons downloads:</h4>
           <p>45k+</p>
-        </div>
-        <div class="cell">
+        </a>
+        <a
+          class="cell"
+          href="https://bitcoin.design/social-media/"
+        >
           <h4>Community reach:</h4>
-          <p>808,833</p>
-        </div>
-        <div class="cell">
+          <p>8,833</p>
+        </a>
+        <a
+          class="cell"
+          href="https://www.youtube.com/c/BitcoinDesign"
+        >
           <h4>YouTube views:</h4>
           <p>31,500</p>
-        </div>
-        <div class="cell">
+        </a>
+        <a
+          class="cell"
+          href="https://opencollective.com/bitcoin-design-foundation"
+        >
           <h4>Foundation donations received:</h4>
           <p>€481k+</p>
-        </div>
+        </a>
       </div>
       <div class="edge -top-left-h" />
       <div class="edge -top-left-v" />
@@ -98,10 +125,12 @@ import Icons from '@/helpers/icons.js'
         padding: 15px 25px 40px 25px;;
         border-top: 1px dashed black;
         border-left: 1px dashed black;
+        text-decoration: none;;
 
         h4 {
           font-size: 19px;
           font-weight: 400;
+          color: black;
         }
 
         > div {
@@ -119,6 +148,14 @@ import Icons from '@/helpers/icons.js'
           line-height: 1;
           letter-spacing: -0.05rem;
           color: var(--blue);
+        }
+
+        &:is(a) {
+          &:hover {
+            background-color: rgba(black, 0.05);
+            // text-decoration: underline;
+            color: var(--blue);
+          }
         }
 
         &.-header {

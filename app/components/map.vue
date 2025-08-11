@@ -95,7 +95,7 @@ onMounted(() => {
     <div class="content">
       <p :class="'stat' + (activeCountry ? ' -active' : '')">{{ countryLabel }}</p>
 
-      <div class="dot-map">
+      <div class="dot-map" aria-label="World map showing per country activity">
         <template v-if="countryColors">
           <div
             v-for="(dot, index) in map.dots"
@@ -106,9 +106,9 @@ onMounted(() => {
             @mouseenter="showCountry(dot.id)"
             @mouseleave="hideCountry(dot.id)"
           >
-            <div 
-              :style="{ opacity: countryColors[dot.id] }"
-            />
+            <div>
+              <div :style="{ opacity: countryColors[dot.id] || 0 }" />
+            </div>
           </div>
         </template>
       </div>
@@ -117,6 +117,8 @@ onMounted(() => {
 </template>
 
 <style scoped lang="scss">
+
+@use "@/assets/css/animations.scss";
 
 .map {
   display: flex;
@@ -168,22 +170,46 @@ onMounted(() => {
         width: 1.2%;
         padding: 0.15%;
 
-        div {
+        > div {
           width: 100%;
           height: 100%;
           border-radius: 50%;
-          background-color: var(--purple);
-          opacity: 0;
+          // opacity: 0;
+          position: relative;
+          background-color: rgba(black, 0.025);
 
-          &:before {
-            content: '';
+          > div {
             position: absolute;
             top: 0;
             left: 0;
             width: 100%;
             height: 100%;
             border-radius: 50%;
-            background-color: rgba(black, 0.025);
+            background-color: var(--purple);
+          }
+
+          &:after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 200%;
+            height: 200%;
+            transform: translate(-50%, -50%) scale(0.5);
+            border-radius: 50%;
+            border: 2px solid var(--purple);
+            pointer-events: none;
+            opacity: 0;
+            transition: all 150ms animations.$ease
+          }
+        }
+
+        &:hover {
+          > div {
+            &:after {
+              transform: translate(-50%, -50%) scale(1);
+              opacity: 1;
+            }
           }
         }
       }

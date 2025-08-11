@@ -52,12 +52,11 @@ export default defineNuxtConfig({
         { name: 'twitter:site', content: '@bitcoin_design' },
       ],
       link: [
-        { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+        { rel: 'icon', type: 'image/png', size: '96x96', href: '/favicon-96x96.png' },
+        { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' },
+        { rel: 'shortcut icon', href: '/favicon.ico' },
         { rel: 'apple-touch-icon', size: '180x180', href: '/apple-touch-icon.png' },
-        { rel: 'icon', type: 'image/png', size: '32x32', href: '/favicon-32x32.png' },
-        { rel: 'icon', type: 'image/png', size: '16x16', href: '/favicon-16x16.png' },
         { rel: 'manifest', href: '/site.webmanifest' },
-        { rel: 'mask-icon', color: '#f2a900', href: '/assets/safari-pinned-tab.svg' },
       ],
       script: [
         { defer: true, src:"https://info.bitcoin.design/script.js", "data-website-id": "4ca72544-76fd-4e34-9597-13d4ea41e517" }

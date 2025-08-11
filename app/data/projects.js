@@ -29,17 +29,17 @@ export default {
     },
     {
       name: "Blink",
-      link: "",
+      link: "https://github.com/BitcoinDesign/Meta/issues/195",
       image: 'blink.svg',
-      website: "",
-      tags: ["2022", "Collaboration"]
+      website: "https://www.blink.sv/",
+      tags: ["2021", "Design review", "Lightning"]
     },
     {
       name: "Bitcoin Core App",
       link: "https://github.com/BitcoinDesign/Meta/issues/8",
       image: 'bitcoin-core-app.svg',
       website: "https://bitcoincore.app",
-      tags: ["2020", "Collaboration"]
+      tags: ["2020", "Design", "Collaboration"]
     },
     {
       name: "Bitcoin Icons",
@@ -50,471 +50,462 @@ export default {
     },
     {
       name: "Blixt",
-      link: "",
+      link: "https://github.com/BitcoinDesign/Meta/issues/177",
       image: 'blixt.png',
-      website: "",
-      tags: ["2022", "Collaboration"]
+      website: "https://blixtwallet.github.io/",
+      tags: ["2021", "Design review", "Lightning"]
     },
     {
       name: "Border Wallets",
-      link: "",
+      link: "https://github.com/BitcoinDesign/Meta/issues/654",
       image: 'border-wallets.png',
-      website: "",
-      tags: ["2022", "Collaboration"]
+      website: "https://www.borderwallets.com/",
+      tags: ["2024", "Summer of Bitcoin", "Education"]
     },
     {
       name: "Damus",
-      link: "",
+      link: "https://github.com/BitcoinDesign/Meta/issues/531",
       image: 'damus.png',
-      website: "",
-      tags: ["2022", "Collaboration"]
+      website: "https://damus.io/",
+      tags: ["2023", "Design review", "Nostr", "Lightning"]
     },
     {
       name: "Bitcoin UX Research Toolkit",
-      link: "",
+      link: "https://github.com/BitcoinDesign/Meta/issues/653",
       image: 'bitcoin-ux-research-toolkit.svg',
-      website: "",
-      tags: ["2022", "Privacy"]
+      website: "https://bitcoinresearch.xyz/",
+      tags: ["2024", "Research", "Resources", "Education"]
     },
     {
       name: "BitcoinQR",
-      link: "",
+      link: "https://github.com/BitcoinDesign/Meta/issues/257",
       image: 'bitcoin-qr.svg',
-      website: "",
-      tags: ["2022", "Collaboration"]
+      website: "https://bitcoinqr.dev/",
+      tags: ["2022", "Resources", "Education", "Adoption"]
     },
     {
       name: "Bitnob",
-      link: "",
+      link: "https://x.com/MouxDesign/status/1865402974933012582",
       image: 'bitnob.svg',
-      website: "",
-      tags: ["2022", "Collaboration"]
+      website: "https://bitnob.com/",
+      tags: ["2024", "Education"]
     },
     {
       name: "Bitsacco",
-      link: "",
+      link: "https://x.com/MouxDesign/status/1865401288109727760",
       image: 'bitsacco.png',
-      website: "",
-      tags: ["2022", "Collaboration"]
+      website: "https://bitsacco.com/",
+      tags: ["2024", "Education"]
     },
     {
       name: "Geyser",
-      link: "",
+      link: "https://github.com/BitcoinDesign/Meta/issues/122",
       image: 'geyser.svg',
-      website: "",
-      tags: ["2022", "Collaboration"]
+      website: "https://geyser.fund/",
+      tags: ["2021", "Design review", "Community"]
     },
     {
       name: "Blockstream App",
-      link: "",
+      link: "https://github.com/BitcoinDesign/Meta/issues/361",
       image: 'blockstream.svg',
-      website: "",
-      tags: ["2022", "Privacy"]
+      website: "https://blockstream.com/app/",
+      tags: ["2022", "Design review"]
     },
     {
       name: "Blue Wallet",
-      link: "",
+      link: "https://github.com/BitcoinDesign/Meta/issues/516",
       image: 'blue-wallet.png',
-      website: "",
-      tags: ["2022", "Collaboration"]
+      website: "https://bluewallet.io/",
+      tags: ["2023", "A11y test", "Design review"]
     },
     {
       name: "Bolt12.org",
-      link: "",
+      link: "https://x.com/StephenDeLorme/status/1800922638082302213",
       image: 'bolt12.png',
       website: "https://bolt12.org",
-      tags: ["2022", "Collaboration"]
+      tags: ["2024", "Resources", "Education", "Adoption"]
     },
     {
       name: "Bolt.Fun",
-      link: "",
+      link: "https://github.com/BitcoinDesign/Meta/issues?q=bolt.fun",
       image: 'bolt-fun.png',
-      tags: ["2022", "Collaboration"]
+      tags: ["2022", "Collaboration", "Community"]
     },
     {
       name: "Lawallet",
-      link: "",
+      link: "https://x.com/bitcoin_design/status/1891918920501645721",
       image: 'lawallet.png',
-      website: "",
-      tags: ["2022", "Collaboration"]
+      website: "https://lawallet.io/",
+      tags: ["2025", "Education", "Bootcamp"]
     },
     {
       name: "Breez",
-      link: "",
+      link: "https://github.com/BitcoinDesign/Meta/issues/175",
       image: 'breez.svg',
       website: "https://breez.technology",
-      tags: ["2022", "Privacy"]
+      tags: ["2021", "Design review", "Lightning"]
     },
     {
       name: "BTC Prague",
-      link: "",
+      link: "https://github.com/BitcoinDesign/Meta/issues/495",
       image: 'btc-prague.svg',
       website: "https://btcprague.com/",
-      tags: ["2022", "Organization"]
+      tags: ["2023", "Organization", "Community"]
     },
     {
       name: "BTCMap",
-      link: "",
+      link: "https://github.com/BitcoinDesign/Meta/issues/804",
       image: 'btcmap.svg',
-      website: "",
+      website: "https://btcmap.org/",
       tags: ["2025", "Design review", "User testing"]
     },
     {
       name: "BTCPay",
-      link: "",
+      link: "https://github.com/BitcoinDesign/Meta/issues/430",
       image: 'btcpay.svg',
-      website: "",
-      tags: ["2022", "Collaboration"]
+      website: "https://btcpayserver.org/",
+      tags: ["2022", "Design review", "Collaboration", "Education"]
     },
     {
       name: "Mutiny",
-      link: "",
+      link: "https://github.com/BitcoinDesign/Meta/issues/672",
       image: 'mutiny.svg',
-      website: "",
-      tags: ["2022", "Collaboration"]
+      website: "https://blog.mutinywallet.com/mutiny-wallet-is-shutting-down/",
+      tags: ["2024", "Design review", "Lightning"]
     },
     {
       name: "Dana Wallet",
-      link: "",
+      link: "https://github.com/BitcoinDesign/Meta/issues?q=%22Dana%20Wallet%22",
       image: 'dana-wallet.png',
-      website: "",
-      tags: ["2022", "Privacy"]
+      website: "https://github.com/cygnet3/danawallet",
+      tags: ["2022", "Collaboration", "User testing", "Privacy"]
     },
     {
       name: "European Bitcoiners",
-      link: "",
+      link: "https://github.com/BitcoinDesign/Meta/issues/533",
       image: 'european-bitcoiners.png',
-      website: "",
-      tags: ["2022", "Collaboration"]
+      website: "https://europeanbitcoiners.com/",
+      tags: ["2023", "Research", "Community"]
     },
     {
       name: "Fedimint",
-      link: "https://github.com/BitcoinDesign/Meta/issues/521",
+      link: "https://github.com/BitcoinDesign/Meta/issues?q=Fedimint",
       image: 'fedimint.png',
       website: "https://fedimint.org",
-      tags: ["2023", "Collaboration"]
+      tags: ["2022", "Collaboration", "Ecash"]
     },
     {
       name: "Lana",
-      link: "",
+      link: "https://github.com/BitcoinDesign/Meta/issues/758",
       image: 'lana.svg',
-      website: "",
-      tags: ["2022", "Collaboration"]
+      website: "https://www.galoy.io/lana-bitcoin-loans-platform",
+      tags: ["2025", "Design review"]
     },
     {
       name: "Padawan",
-      link: "",
+      link: "https://github.com/BitcoinDesign/Meta/issues/326",
       image: 'padawan.svg',
-      website: "",
-      tags: ["2022", "Collaboration"]
+      website: "https://padawanwallet.com/",
+      tags: ["2022", "Education"]
     },
     {
       name: "Hello Bitcoin",
-      link: "",
+      link: "https://github.com/BitcoinDesign/Meta/issues/170",
       image: 'hello-bitcoin.png',
-      website: "",
-      tags: ["2022", "Privacy"]
+      website: "https://hellobitco.in/",
+      tags: ["2022", "Education", "Resources"]
     },
     {
-      name: "Joinmarket Web UI (JAM)",
-      link: "",
+      name: "Joinmarket Web UI",
+      link: "https://github.com/BitcoinDesign/Meta/issues/239",
       image: 'joinmarket-web-ui.png',
-      website: "",
-      tags: ["2022", "Collaboration"]
+      website: "https://jamdocs.org/",
+      tags: ["2022", "Collaboration", "Privacy"]
     },
     {
       name: "Keeper",
-      link: "",
+      link: "https://github.com/BitcoinDesign/Meta/issues/105",
       image: 'keeper.svg',
-      website: "",
-      tags: ["2022", "Collaboration"]
+      website: "https://bitcoinkeeper.app/",
+      tags: ["2021", "Design review"]
     },
     {
       name: "Krystal Bull",
-      link: "",
+      link: "https://github.com/BitcoinDesign/Meta/issues/160",
       image: 'krystal-bull.png',
-      website: "",
-      tags: ["2022", "Collaboration"]
+      website: "https://github.com/bitcoin-s/krystal-bull",
+      tags: ["2021", "Design review"]
     },
     {
       name: "Resolvr",
-      link: "",
+      link: "https://github.com/BitcoinDesign/Meta/issues/612",
       image: 'resolvr.svg',
-      website: "",
-      tags: ["2022", "Collaboration"]
+      website: "https://www.resolvr.io/",
+      tags: ["2024", "Design review"]
     },
     {
       name: "Liana Wallet",
-      link: "",
+      link: "https://github.com/BitcoinDesign/Meta/issues/555",
       image: 'liana.png',
-      website: "",
-      tags: ["2022", "Privacy"]
+      website: "https://wizardsardine.com/liana/",
+      tags: ["2023", "Design review"]
     },
     {
       name: "Lightning Dev Kit (LDK)",
-      link: "",
+      link: "https://github.com/BitcoinDesign/Meta/issues/89",
       image: 'ldk.svg',
-      website: "",
-      tags: ["2022", "Collaboration"]
+      website: "https://lightningdevkit.org/",
+      tags: ["2021", "Collaboration", "Branding", "Web design", "Lightning"]
     },
     {
       name: "Machankura",
-      link: "",
+      link: "https://github.com/BitcoinDesign/Meta/issues/367",
       image: 'machankura.svg',
-      website: "",
-      tags: ["2022", "Collaboration"]
+      website: "https://8333.mobi/",
+      tags: ["2022", "Design review"]
     },
     {
       name: "Mostro",
-      link: "",
+      link: "https://x.com/bitcoin_design/status/1891918920501645721",
       image: 'mostro.png',
-      website: "",
-      tags: ["2022", "Collaboration"]
+      website: "https://mostro.network/",
+      tags: ["2024", "Education", "Bootcamp"]
     },
     {
       name: "Satsymbol.org",
-      link: "",
+      link: "https://youtu.be/UyDGfFboHPw",
       image: 'satsymbol.png',
-      website: "",
+      website: "https://satsymbol.org/",
       tags: ["2024", "Design review"]
     },
     {
       name: "Muun",
-      link: "",
+      link: "https://github.com/BitcoinDesign/Meta/issues/196",
       image: 'muun.png',
-      website: "",
-      tags: ["2022", "Privacy"]
+      website: "https://muun.com/",
+      tags: ["2021", "Design review", "A11y test", "Lightning"]
     },
     {
       name: "Open Design Guide",
-      link: "",
+      link: "https://github.com/BitcoinDesign/Meta/issues/708",
       image: 'open-design-guide.png',
       website: "https://opendesign.guide",
-      tags: ["2024", "Resources"]
+      tags: ["2024", "Resources", "Education"]
     },
     {
       name: "Open Sats",
-      link: "",
+      link: "https://www.youtube.com/watch?v=KtV0l6NsJZs",
       image: 'open-sats.png',
-      website: "",
-      tags: ["2022", "Collaboration"]
+      website: "https://opensats.org",
+      tags: ["2021", "Design review"]
     },
     {
       name: "Oshi",
-      link: "",
+      link: "https://github.com/BitcoinDesign/Meta/issues/336",
       image: 'oshi.svg',
-      website: "",
-      tags: ["2022", "Collaboration"]
+      website: "https://www.oshi.tech/",
+      tags: ["2022", "Design review"]
     },
     {
       name: "Sovran",
-      link: "",
+      link: "https://sovran.money/",
       image: 'sovran.png',
-      website: "",
-      tags: ["2022", "Collaboration", "Ecash"]
+      website: "https://sovran.money/",
+      tags: ["2024", "Education", "Ecash"]
     },
     {
       name: "Payjoin",
-      link: "",
+      link: "https://github.com/BitcoinDesign/Meta/issues/419",
       image: 'payjoin.svg',
-      website: "",
-      tags: ["2022", "Privacy"]
+      website: "https://payjoin.org/",
+      tags: ["2022", "Education", "Privacy"]
     },
     {
       name: "Peach Wallet",
-      link: "",
+      link: "https://github.com/BitcoinDesign/Meta/issues/576",
       image: 'peach-wallet.png',
-      website: "",
-      tags: ["2022", "Collaboration"]
+      website: "https://peachbitcoin.com/",
+      tags: ["2023", "Design review"]
     },
     {
       name: "Penpot",
-      link: "",
+      link: "https://github.com/BitcoinDesign/Meta/issues/276",
       image: 'penpot.svg',
-      website: "",
-      tags: ["2022", "Collaboration"]
+      website: "https://penpot.app/",
+      tags: ["2022", "Education", "Resources", "Design tools"]
     },
     {
       name: "Proton Wallet",
-      link: "",
+      link: "https://github.com/BitcoinDesign/Meta/issues/757",
       image: 'proton-wallet.svg',
-      website: "",
-      tags: ["2022", "Design review", "Privacy"]
+      website: "https://proton.me/wallet",
+      tags: ["2025", "Design review", "Privacy"]
     },
     {
       name: "Tiankii",
-      link: "",
+      link: "https://github.com/BitcoinDesign/Meta/issues/431",
       image: 'tiankii.png',
-      website: "",
-      tags: ["2022", "Collaboration"]
+      website: "https://www.tiankii.com/",
+      tags: ["2023", "Design review"]
     },
     {
       name: "Revault",
-      link: "",
+      link: "https://github.com/BitcoinDesign/Meta/issues/77",
       image: 'revault.png',
-      website: "",
-      tags: ["2022", "Privacy"]
+      website: "https://github.com/revault/revaultd",
+      tags: ["2021", "Design review"]
     },
     {
       name: "Robosats",
-      link: "",
+      link: "https://github.com/BitcoinDesign/Meta/issues/349",
       image: 'robosats.png',
-      website: "",
-      tags: ["2022", "Collaboration"]
-    },
-    {
-      name: "SafeBits",
-      link: "",
-      image: 'safebits.png',
-      website: "",
-      tags: ["2022", "Collaboration"]
+      website: "https://github.com/RoboSats/robosats",
+      tags: ["2022", "Design review"]
     },
     {
       name: "Satlantis",
-      link: "",
+      link: "https://github.com/BitcoinDesign/Meta/issues/479",
       image: 'satlantis.png',
-      website: "",
-      tags: ["2022", "Design review", "Game"]
+      website: "https://tribyu.com",
+      tags: ["2023", "Design review", "Game"]
     },
     {
       name: "Wallet of Satoshi",
-      link: "",
+      link: "https://github.com/BitcoinDesign/Meta/issues/516",
       image: 'wallet-of-satoshi.svg',
-      website: "",
-      tags: ["2022", "Collaboration"]
+      website: "https://www.walletofsatoshi.com/",
+      tags: ["2023", "A11y test", "Design review", "Lightning"]
     },
     {
       name: "Save our Wallets",
-      link: "",
+      link: "https://saveourwallets.org/",
       image: 'save-our-wallets.svg',
-      website: "",
+      website: "https://saveourwallets.org/",
       tags: ["2025", "Privacy"]
     },
     {
       name: "Saving Satoshi",
-      link: "",
+      link: "https://github.com/BitcoinDesign/Meta/issues/564",
       image: 'saving-satoshi.png',
-      website: "",
+      website: "https://savingsatoshi.com/",
       tags: ["2022", "Collaboration", "Education", "Game"]
     },
     {
       name: "Sifir",
-      link: "",
+      link: "https://www.youtube.com/watch?v=4JtL7I0ihiw",
       image: 'sifir.png',
-      website: "",
-      tags: ["2022", "Collaboration"]
+      website: "https://sifir.io/",
+      tags: ["2020", "Design review"]
     },
     {
       name: "Simple Crypto",
-      link: "",
+      link: "https://youtu.be/qmMlp1b9WXw",
       image: 'simple-crypto.png',
-      website: "",
-      tags: ["2022", "Collaboration"]
+      website: "https://www.simple-bitcoin.app",
+      tags: ["2023", "Design review"]
     },
     {
       name: "Bitcoin Layers",
-      link: "",
+      link: "https://github.com/BitcoinDesign/Meta/issues/671",
       image: 'bitcoin-layers.svg',
-      website: "",
-      tags: ["2022", "Collaboration"]
+      website: "https://www.bitcoinlayers.org/",
+      tags: ["2024", "Collaboration", "Branding", "Web design"]
     },
     {
       name: "Specter",
-      link: "",
+      link: "https://github.com/BitcoinDesign/Meta/issues/41",
       image: 'specter.png',
-      website: "",
-      tags: ["2022", "Privacy"]
+      website: "https://specter.solutions/index.html",
+      tags: ["2020", "Collaboration", "Design review", "Privacy"]
     },
     {
       name: "Stratum V2",
-      link: "",
+      link: "https://github.com/BitcoinDesign/Meta/issues/293",
       image: 'stratum-v2.png',
-      website: "",
-      tags: ["2022", "Collaboration"]
+      website: "https://stratumprotocol.org",
+      tags: ["2022", "Branding", "Web design", "Mining"]
     },
     {
       name: "Summer of Bitcoin",
-      link: "",
+      link: "https://github.com/BitcoinDesign/Meta/issues/326",
       image: 'summer-of-bitcoin.png',
-      website: "",
-      tags: ["2022", "Collaboration"]
+      website: "https://www.summerofbitcoin.org/",
+      tags: ["2022", "Collaboration", "Education", "Community"]
     },
     {
       name: "Tando",
-      link: "",
+      link: "https://x.com/MouxDesign/status/1865398764900413582",
       image: 'tando.svg',
-      website: "",
-      tags: ["2022", "Collaboration"]
+      website: "https://tando.me/",
+      tags: ["2024", "Education", "Bootcamp"]
     },
     {
       name: "Bitcoin Smiles",
-      link: "",
+      link: "https://bitcoinsmiles.org/",
       image: 'bitcoin-smiles.svg',
-      website: "",
-      tags: ["2022", "Collaboration"]
+      website: "https://bitcoinsmiles.org/",
+      tags: ["2022", "Branding", "Web design"]
     },
     {
       name: "TwelveCash",
-      link: "",
+      link: "https://twelve.cash/",
       image: 'twelve-cash.png',
-      website: "",
-      tags: ["2022", "Privacy"]
+      website: "https://twelve.cash/",
+      tags: ["2024", "Lightning", "Education"]
     },
     {
       name: "uMlando",
-      link: "",
+      link: "https://github.com/BitcoinDesign/Meta/issues/563",
       image: 'umlando.png',
-      website: "",
-      tags: ["2022", "Collaboration"]
+      website: "https://github.com/ConorOkus/uMlando-wallet",
+      tags: ["2023", "Education", "Lightning"]
     },
     {
       name: "Voltage",
-      link: "",
+      link: "https://github.com/BitcoinDesign/Meta/issues/704",
       image: 'voltage.svg',
-      website: "",
-      tags: ["2022", "Collaboration"]
+      website: "https://www.voltage.cloud/",
+      tags: ["2024", "Design review", "Resources"]
     },
     {
       name: "VoltPay",
-      link: "",
+      link: "https://github.com/BitcoinDesign/Meta/issues/321",
       image: 'voltpay.svg',
-      website: "",
-      tags: ["2022", "Collaboration"]
+      tags: ["2022", "Design review"]
     },
     {
       name: "Bitcoin UI Kit",
-      link: "",
       image: 'bitcoin-ui-kit.svg',
       website: "https://www.bitcoinuikit.com",
       tags: ["2022", "Collaboration"]
     },
     {
       name: "WalletScrutiny",
-      link: "",
+      link: "https://github.com/BitcoinDesign/Meta/issues/415",
       image: 'walletscrutiny.png',
       website: "https://walletscrutiny.com",
-      tags: ["2022", "Privacy"]
+      tags: ["2022", "Branding", "Web design", "Security"]
     },
     {
       name: "WhenTaproot",
-      link: "",
+      link: "https://github.com/BitcoinDesign/Meta/issues/347",
       image: 'whentaproot.png',
       website: "https://whentaproot.org",
-      tags: ["2022", "Collaboration"]
+      tags: ["2024", "Resources", "Education", "Adoption"]
     },
     {
       name: "White Noise",
-      link: "",
+      link: "https://github.com/BitcoinDesign/Meta/issues/765",
       image: 'white-noise.svg',
-      website: "",
-      tags: ["2022", "Collaboration"]
+      website: "https://www.whitenoise.chat/",
+      tags: ["2025", "Research", "Nostr"]
     },
     {
       name: "Zeus",
-      link: "",
+      link: "https://github.com/BitcoinDesign/Meta/issues/70",
       image: 'zeus.png',
       website: "https://zeusln.com",
-      tags: ["2022", "Collaboration"]
+      tags: ["2021", "Design", "Design review", "Education", "Lightnign", "A11y test"]
     }
   ]
 }

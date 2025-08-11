@@ -28,6 +28,16 @@ function filter(tag) {
   selectedTag.value = selectedTag.value === tag ? null : tag;
 }
 
+function clickTag(tag) {
+  filter(tag);
+
+  // Scroll to the top of the section when a tag is clicked
+  const section = document.getElementById('projects');
+  if (section) {
+    section.scrollIntoView({ behavior: 'smooth' });
+  }
+}
+
 const visibleProjects = computed(() => {
   if (!selectedTag.value) {
     return projects.data;
@@ -50,7 +60,13 @@ onMounted(() => {
       <p>Where the community made its marks.</p>
     </div>
 
-    <div class="tags">
+    <button
+      @click="clickTag(null)"
+      :disabled="!selectedTag"
+      :class="'-button -tiny --outline --black -clear-filter' + (selectedTag ? '' : ' -disabled')"
+    >Clear filter</button>
+
+    <div class="tags" v-if="false">
       <button
         v-for="(tag, index) in tags"
         :key="index"
@@ -66,12 +82,16 @@ onMounted(() => {
         v-for="(info, index) in visibleProjects"
         :key="index"
         :info="info"
+        :activeTag="selectedTag"
+        @selectTag="clickTag"
       />
     </div>
   </section>
 </template>
 
 <style scoped lang="scss">
+
+@use "@/assets/css/animations.scss";
 
 .projects {
   display: flex;
@@ -109,7 +129,18 @@ onMounted(() => {
     }
   }
 
+  button.-clear-filter {
+    margin-top: 10px;
+    transition: all 150ms animations.$ease;
+    appearance: none;
+    
+    &.-disabled {
+      opacity: 0;
+    }
+  }
+
   .items {
+    margin-top: 10px;
     width: 100%;
     max-width: 1340px;
     display: flex;

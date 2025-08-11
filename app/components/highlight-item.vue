@@ -15,10 +15,18 @@ const props = defineProps({
       :src="'/images/highlights/' + info.image + '.jpg'"
       :srcset="'/images/highlights/' + info.image + '.jpg 1x, /images/highlights/' + info.image + '@2x.jpg 2x'"
       alt=""
+      loading="lazy"
     />
     <h4>{{ info.name }}</h4>
     <p>{{ info.type }}</p>
     <p>{{ info.description }}</p>
+
+    <a
+      v-if="info.link"
+      class="-button -small --filled --black"
+      :href="info.link"
+      target="_blank"
+    >Learn more</a>
   </div>
 </template>
 
@@ -27,6 +35,7 @@ const props = defineProps({
 .highlight-item {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
 
   img {
     width: 100%;
@@ -53,6 +62,10 @@ const props = defineProps({
       margin-top: 20px;
       font-size: 19px;
     }
+  }
+
+  a {
+    margin-top: 20px;
   }
 }
 

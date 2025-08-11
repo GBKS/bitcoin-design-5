@@ -4,7 +4,8 @@ export default {
       image: 'guide',
       name: "Bitcoin Design Guide",
       type: "Comprehensive Design Resource",
-      description: "A complete reference for building bitcoin applications - from basic principles to detailed wallet concepts, technical explanations, and real-world case studies, all created collaboratively by the community."
+      description: "A complete reference for building bitcoin applications - from basic principles to detailed wallet concepts, technical explanations, and real-world case studies, all created collaboratively by the community.",
+      link: 'https://bitcoin.design/guide/'
     },
     {
       image: 'bolt12',
@@ -28,7 +29,8 @@ export default {
       image: 'bitcoin-core-app',
       name: "Bitcoin Core App",
       type: "Reference Implementation UX",
-      description: "A complete redesign of bitcoin's foundational software - from desktop-only to mobile-first, creating public design documentation and making node operation accessible to everyone."
+      description: "A complete redesign of bitcoin's foundational software - from desktop-only to mobile-first, creating public design documentation and making node operation accessible to everyone.",
+      link: 'https://bitcoin.design/guide/case-studies/bitcoin-core-app/'
     },
     {
       image: 'designathon',

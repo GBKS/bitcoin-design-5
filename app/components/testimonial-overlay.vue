@@ -26,6 +26,7 @@ const props = defineProps({
 <style scoped lang="scss">
 
 @use "@/assets/css/mixins.scss";
+@use "@/assets/css/animations.scss";
 
 .testimonial-overlay {
   max-width: 700px;
@@ -34,6 +35,7 @@ const props = defineProps({
   border: 2px solid black;
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
   padding: 0;
+  z-index: 1000;
 
   .content {
     position: relative;
@@ -54,21 +56,33 @@ const props = defineProps({
 
     button {
       position: absolute;
-      top: 10px;
-      right: 10px;
+      top: -10px;
+      right: -10px;
       background: transparent;
       border: none;
       cursor: pointer;
-      width: 30px;
-      height: 30px;
+      width: 40px;
+      height: 40px;
       padding: 0;
       appearance: none;
-      line-height: 1;
+      line-height: 0;
+      background-color: black;
+      border-radius: 50%;
+      color: white;
+      transition: transform 0.2s animations.$ease;
 
       svg {
-        width: 20px;
-        height: 20px;
-        fill: black;
+        width: 16px;
+        height: 16px;
+        transition: transform 0.2s animations.$ease;
+      }
+
+      &:hover {
+        transform: scale(0.9);
+
+        svg {
+          transform: rotate(90deg);
+        }
       }
     }
   }

@@ -11,6 +11,17 @@ const props = defineProps({
   }
 });
 
+const formattedDate = computed(() => {
+  const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+  // Format the date to a more readable format if needed
+  const dateParts = props.info.date.split('/');
+  if (dateParts.length === 2) {
+    const month = months[parseInt(dateParts[0], 10) - 1];
+    const year = dateParts[1];
+    return `${month} ${year}`;
+  }
+});
+
 const classObject = computed(() => { 
   return ['milestone-item -index-' + props.index]
 });
@@ -35,7 +46,7 @@ const classObject = computed(() => {
     >
     <div class="copy">
       <h3>{{ info.name }}</h3>
-      <p>{{ info.date }}</p>
+      <p>{{ formattedDate }}</p>
     </div>
   </a>
 </template>

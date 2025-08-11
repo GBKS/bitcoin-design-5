@@ -20,7 +20,7 @@ export default {
     },
     {
       name: "First newsletter edition",
-      date: "8/2020",
+      date: "10/2020",
       link: "https://bitcoindesign.substack.com/p/genesis-update-0",
       image: 'first-newsletter',
     },
@@ -133,7 +133,7 @@ export default {
       image: "foundation-launch",
     },
     {
-      name: "Wallet Scrutiny case study published",
+      name: "WalletScrutiny case study published",
       date: "11/2023",
       link: "https://bitcoin.design/guide/case-studies/walletscrutiny/",
       image: "walletscrutiny",
