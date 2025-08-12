@@ -11,7 +11,7 @@ export default {
       image: 'bolt12',
       name: "Adoption campaigns",
       type: "Standards & Interoperability",
-      description: "Community-led efforts to promote unified QR codes, Taproot adoption, and BOLT 12 implementation across bitcoin applications for better user experiences."
+      description: 'Community-led efforts to promote <a href="https://bitcoinqr.dev/" target="_blank">unified QR codes</a>, <a href="https://whentaproot.org" target="_blank">Taproot</a> adoption, and <a href="https://bolt12.org" target="_blank">BOLT 12</a> implementation across bitcoin applications for better user experiences.'
     },
     {
       image: 'summer-of-bitcoin',
@@ -36,7 +36,7 @@ export default {
       image: 'designathon',
       name: "Designathons 1 & 2",
       type: "Community Events",
-      description: "Design hackathons that brought together designers, developers, and bitcoin projects to experiment, prototype solutions and strengthen ecosystem connections."
+      description: 'Design hackathons (<a href="https://designathon-one.bitcoin.design/" target="_blank">1</a>, 2) that brought together designers, developers, and bitcoin projects to experiment, prototype solutions and strengthen ecosystem connections.'
     }
   ]
 }

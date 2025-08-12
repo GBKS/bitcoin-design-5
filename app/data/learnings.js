@@ -1,34 +1,34 @@
 export default {
   data: [
     {
-      word: 'Pssssstttt!!!',
-      name: "Building in Public is Powerful",
-      description: "We initially worried that showing messy, iterative design work would undermine credibility. Instead, we discovered that transparency creates trust."
+      word: 'Chaos',
+      name: "Open Design Works",
+      description: "Transparent collaboration creates trust, not confusion. Public design discussions and shared files produce better outcomes than private agency work."
     },
     {
-      word: "Stay out",
-      name: "Accessibility Requires Intentionality",
-      description: "Bitcoin's complexity makes it tempting to design for technical users first."
+      word: "Elite",
+      name: "Everyone Can Contribute",
+      description: "Design expertise comes from many backgrounds. Our best insights come from developers, researchers, and newcomers, not just traditional designers."
     },
     {
-      word: "I am the best",
-      name: "Community Beats Hierarchy",
-      description: "Traditional design agencies struggle with Bitcoin because they can't bill for the deep research required to understand this space."
+      word: "Meetings",
+      name: "Async-First Scales Globally",
+      description: "Real-time calls build relationships, async work gets things done. Distributed collaboration across timezones requires both scheduled connection and flexible contribution."
     },
     {
-      word: "All the same",
-      name: "Context Matters More Than Conventions",
-      description: "Generic UX patterns often fail in Bitcoin applications. We've learned to question every assumption."
+      word: "Free",
+      name: "Sustainable Funding Enables Focus",
+      description: "Small grants create disproportionate community impact. A few targeted grants have produced the Design Guide, design events, and hundreds of community calls."
     },
     {
-      word: "Lone ranger",
-      name: "Collaboration Needs Infrastructure",
-      description: "Open source thrives with good tooling. We've invested heavily in shared design systems."
+      word: "Lone Ranger",
+      name: "Collective Knowledge Compounds",
+      description: "Shared research and patterns benefit everyone. Cross-project collaboration accelerates the entire ecosystem instead of duplicating effort."
     },
     {      
-      word: "Hurry up!",
-      name: "Patience Pays Off",
-      description: "Bitcoin moves slowly by design, and good design research takes time."
+      word: "Hierarchy",
+      name: "Gentle Governance Guides",
+      description: "Light structure enables creativity without control. Clear processes and shared principles let contributors self-organize while maintaining quality."
     }
   ]
 }

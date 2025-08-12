@@ -12,7 +12,7 @@ const props = defineProps({
 <template>
   <div class="foundation-crew">
     <img
-      :src="'/images/foundation/' + info.image + '.jpg'"
+      :src="'/images/foundation/' + info.image + '.webp'"
       :alt="info.name"
       loading="lazy"
       width="150"
@@ -34,8 +34,8 @@ const props = defineProps({
   align-items: center;
 
   img {
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
     object-fit: cover;
   }
@@ -58,6 +58,17 @@ const props = defineProps({
     flex-basis: 40%;
     flex-grow: 1;
     gap: 15px;
+
+    img {
+      width: 60px;
+      height: 60px;
+    }
+
+    .info {
+      h4 {
+        font-size: 21px;
+      }
+    }
   }
 
   @include mixins.media-query(medium-up) {

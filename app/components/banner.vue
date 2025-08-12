@@ -8,11 +8,11 @@
       <picture>
         <source 
           media="(min-width: 768px)" 
-          srcset="/images/header-desktop.jpg 1x, /images/header-desktop@2x.jpg 2x"
+          srcset="/images/header-desktop.webp 1x, /images/header-desktop@2x.webp 2x"
         >
         <img 
-          src="/images/header-mobile.jpg"
-          srcset="/images/header-mobile.jpg 1x, /images/header-mobile@2x.jpg 2x"
+          src="/images/header-mobile.webp"
+          srcset="/images/header-mobile.webp 1x, /images/header-mobile@2x.webp 2x"
           alt="Colorful illustration featuring a diverse group of six people standing together against a bright yellow background filled with floating creative tools and objects like paintbrushes, rulers, phones, and art supplies. The group includes people of various ethnicities and styles - some wearing casual clothes, others in more formal attire. Two small robot characters are positioned at the bottom corners of the group. The overall style is vibrant and cartoon-like, suggesting themes of creativity, collaboration, and technology."
         />
       </picture>

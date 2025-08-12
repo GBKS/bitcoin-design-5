@@ -13,7 +13,10 @@ const props = defineProps({
   <div class="story-item">
     <img
       :src="'/images/stories/' + info.image + '.jpg'"
+      width="150"
+      height="150"
       alt=""
+      loading="lazy"
     />
     <h4>{{ info.name }}</h4>
     <p class="-role">{{ info.role }}</p>

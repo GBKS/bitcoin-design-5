@@ -6,8 +6,8 @@
   <section class="join" id="join">
     <div class="illustration">
       <img
-        src="/images/join.jpg"
-        srcset="/images/join.jpg 1x, /images/join@2x.jpg 2x"
+        src="/images/join.webp"
+        srcset="/images/join.webp 1x, /images/join@2x.webp 2x"
         alt="Whimsical illustration of a large yellow doorway or portal with black and white striped steps leading up to it. The doorway opens to a starry night sky filled with white dots resembling stars or snow. The bright yellow background surrounds a garden-like scene with colorful flowers, plants, and small floating icons representing various digital elements like chat bubbles, cameras, and interface symbols. The overall style is playful and dreamlike, suggesting a transition between the digital world and a magical or cosmic space."
         loading="lazy"
         width="740"
@@ -79,6 +79,7 @@
 
     p {
       font-size: 21px;
+      text-wrap: balance;
     }
 
     ol {

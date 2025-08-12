@@ -26,6 +26,14 @@
       <p>Here's to the next five years of building the future of money, together.</p>
 
       <p class="-xoxo">xoxo</p>
+
+      <img
+        src="/images/community-seal.png"
+        width="500"
+        height="500"
+        alt=""
+        loading="lazy"
+      >
     </div>
   </section>
 </template>
@@ -47,6 +55,8 @@
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     max-width: 800px;
+    position: relative;
+    overflow: hidden;
 
     h2 {
       font-family: var(--title-font);
@@ -75,14 +85,26 @@
       color: #333333;
 
       &.-xoxo {
+        margin-top: 25px;
         font-family: var(--title-font);
         font-weight: 400;
-        font-size: 48px;
+        font-size: 80px;
       }
 
       & + p {
         margin-top: 20px;
       }
+    }
+
+    img {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      opacity: 0.15;
+      transform: translate(20%, 30%);
+      pointer-events: none;
+      width: 200px;
+      height: 200px;
     }
   }
 
