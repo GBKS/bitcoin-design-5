@@ -14,7 +14,7 @@ export default {
       tags: ["2021", "Branding", "Community", "Lightning"]
     },
     {
-      name: "Bitcoin Development Kit (BDK)",
+      name: "Bitcoin Development Kit",
       link: "https://github.com/BitcoinDesign/Meta/issues/718",
       image: 'bdk.svg',
       website: "https://bitcoindevkit.org",
@@ -251,7 +251,7 @@ export default {
       tags: ["2023", "Design review"]
     },
     {
-      name: "Lightning Dev Kit (LDK)",
+      name: "Lightning Dev Kit",
       link: "https://github.com/BitcoinDesign/Meta/issues/89",
       image: 'ldk.svg',
       website: "https://lightningdevkit.org/",

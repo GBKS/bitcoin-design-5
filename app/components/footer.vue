@@ -20,11 +20,11 @@
       <picture>
         <source 
           media="(min-width: 768px)" 
-          srcset="/images/footer.jpg 1x, /images/footer@2x.jpg 2x"
+          srcset="/images/footer.webp 1x, /images/footer@2x.webp 2x"
         >
         <img 
-          src="/images/footer-mobile.jpg"
-          srcset="/images/footer-mobile.jpg 1x, /images/footer-mobile@2x.jpg 2x"
+          src="/images/footer-mobile.webp"
+          srcset="/images/footer-mobile.webp 1x, /images/footer-mobile@2x.webp 2x"
           alt="Illustration of a creative workspace with a bright yellow background. A white keyboard sits in the center surrounded by scattered art supplies including colored pencils in a container, paintbrushes, a paint palette, and various small objects. A tablet or device displaying colorful interface elements is visible on the left side. The scene has a playful, artistic atmosphere with small decorative elements scattered throughout."
           loading="lazy"
         />

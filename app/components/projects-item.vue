@@ -80,7 +80,7 @@ function selectTag(tag) {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  gap: 10px;
+  gap: 15px;
   border-top: 2px solid #F2F2F2;
   border-left: 2px solid #F2F2F2;
   // background-color: white;
@@ -162,6 +162,11 @@ function selectTag(tag) {
 
   @include mixins.media-query(small) {
     flex-basis: 50%;
+
+    .tags {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
   }
 
   @include mixins.media-query(large) {

@@ -152,7 +152,7 @@ import Icons from '@/helpers/icons.js'
 
         &:is(a) {
           &:hover {
-            background-color: rgba(black, 0.05);
+            background-color: rgba(var(--yellowRGB), 0.1);
             // text-decoration: underline;
             color: var(--blue);
           }

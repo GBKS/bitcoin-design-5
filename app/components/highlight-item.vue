@@ -12,14 +12,14 @@ const props = defineProps({
 <template>
   <div class="highlight-item">
     <img
-      :src="'/images/highlights/' + info.image + '.jpg'"
-      :srcset="'/images/highlights/' + info.image + '.jpg 1x, /images/highlights/' + info.image + '@2x.jpg 2x'"
+      :src="'/images/highlights/' + info.image + '.webp'"
+      :srcset="'/images/highlights/' + info.image + '.webp 1x, /images/highlights/' + info.image + '@2x.webp 2x'"
       alt=""
       loading="lazy"
     />
     <h4>{{ info.name }}</h4>
     <p>{{ info.type }}</p>
-    <p>{{ info.description }}</p>
+    <p v-html="info.description" />
 
     <a
       v-if="info.link"
@@ -61,6 +61,15 @@ const props = defineProps({
     &:nth-of-type(2) {
       margin-top: 20px;
       font-size: 19px;
+    }
+
+    ::v-deep(a) {
+      color: black;
+      text-decoration: underline;
+
+      &:hover {
+        color: var(--purple);
+      }
     }
   }
 

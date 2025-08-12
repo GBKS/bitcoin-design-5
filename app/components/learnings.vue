@@ -10,7 +10,7 @@ import learnings from '@/data/learnings.js';
     
     <div class="section-header -yellow -white">
       <h2>What we've Learned</h2>
-      <p>Insights gathered from five years of collaborative Bitcoin design.</p>
+      <p>Insights gathered from five years of collaborative bitcoin design.</p>
     </div>
 
     <div class="items">
@@ -43,6 +43,8 @@ import learnings from '@/data/learnings.js';
   }
 
   @include mixins.media-query(small) {
+    padding-left: 25px;
+    padding-right: 25px;
     .items {
       
     }

@@ -55,7 +55,18 @@ const classObject = computed(() => {
     color: white;
   }
 
-  &.-index-0 { transform: rotate(-3.21deg); }
+  &.-index-0 { 
+    transform: rotate(-3.21deg);
+
+    p.-word {
+      color: var(--orange);
+    }
+
+    h4,
+    p.-description {
+      color: var(--brown);
+    }
+  }
   &.-index-1 { background-color: var(--green); transform: rotate(5.73deg); }
   &.-index-2 { background-color: var(--orange); transform: rotate(-4.94deg); }
   &.-index-3 { background-color: var(--grey); transform: rotate(-6.06deg); }

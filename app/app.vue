@@ -141,7 +141,7 @@ main {
     }
 
     &.-black {
-      background-color: #262626;
+      background-color: var(--background-dark);
     }
 
     &.-top-border {

@@ -54,6 +54,7 @@ import info from '@/data/foundation.js';
   position: relative;
 
   .items {
+    margin-top: 40px;
     max-width: 1340px;
     width: 100%;
     display: flex;
