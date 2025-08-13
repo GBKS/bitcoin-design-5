@@ -63,6 +63,10 @@ const props = defineProps({
     margin-top: 10px;
     color: black;
     font-size: 19px;
+
+    &:hover {
+      color: var(--purple);
+    }
   }
 
   p {
