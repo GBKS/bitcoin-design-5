@@ -8,7 +8,7 @@
 
     <div class="sheet">
       <h2>Thank You!</h2>
-      <p>Five years ago, a small group of designers had a simple belief: Bitcoin's success depends on great user experience. Today, that belief has grown into a global community of builders, researchers, educators, and advocates.</p>
+      <p>Five years ago, a small group of designers believed that bitcoin's success depended on great UX. That simple belief has become a global community of builders, researchers, educators, and advocates.</p>
 
       <p>Thank you to</p>
       <ul>
@@ -21,7 +21,7 @@
 
       <p><b>Bitcoin design is better because of all of you.</b></p>
 
-      <p>The work continues, the community grows, and the mission remains clear: design Bitcoin for everyone, with everyone.</p>
+      <p>The work continues, the community grows, and the mission remains clear: design bitcoin for everyone, with everyone.</p>
 
       <p>Here's to the next five years of building the future of money, together.</p>
 
@@ -74,14 +74,14 @@
     ul {
       li {
         font-size: 21px;
-        line-height: 1.4;
+        line-height: 1.6;
         color: #333333;
       }
     }
 
     p {
       font-size: 21px;
-      line-height: 1.4;
+      line-height: 1.6;
       color: #333333;
 
       &.-xoxo {

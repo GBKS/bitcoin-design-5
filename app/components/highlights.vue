@@ -10,7 +10,7 @@ import highlights from '@/data/highlights.js';
     
     <div class="section-header">
       <h2>Collaboration Highlights</h2>
-      <p>Let’s zoom in on some of the unique community efforts that had an impact.</p>
+      <p>Zooming in on some of the unique community efforts that made a big impact.</p>
     </div>
 
     <div class="items">

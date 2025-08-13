@@ -20,7 +20,7 @@ const openOverlay = (info) => {
 
     <div class="section-header">
       <h2>Testimonials</h2>
-      <p>They say many things about the community. Here are some of the flattering ones.</p>
+      <p>Our community creates a lot of buzz. Here’s what people are saying about it.</p>
     </div>
     
     <div class="items">

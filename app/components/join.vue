@@ -16,7 +16,7 @@
     </div>
     <div class="copy">
       <h2>How to Join</h2>
-      <p>If anyone of this looked interesting, come and join us. The best time to join was five years ago. The second-best time is today. We are not sure about the third-best.</p>
+      <p>If designing for bitcoin interests you, come and join us. The best time to join was five years ago. The second-best time is today. We’re not sure about the third-best.</p>
 
       <a
         class="-button --filled --black"

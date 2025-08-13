@@ -20,7 +20,7 @@
     <div class="copy">
       <h1>5 years of<br/>Bitcoin Design</h1>
       <h2>Designing Bitcoin For Everyone, With Everyone</h2>
-      <p>2020 - 2025. Five years. Hundreds of calls. Thousands of contributors. One global design community building Bitcoin UX in public.</p>
+      <p>2020–2025. Five years. Hundreds of calls. Thousands of contributors. One global design community building Bitcoin UX in public.</p>
     </div>
   </section>
 </template>

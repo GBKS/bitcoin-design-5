@@ -46,7 +46,7 @@
 
           <div class="item">
             <h4>Growing Our Global Community</h4>
-            <p>We need more designers from different parts of the world shaping bitcoin's future.</p>
+            <p>We need more designers from around the world shaping bitcoin's future.</p>
           </div>
 
           <div class="item">

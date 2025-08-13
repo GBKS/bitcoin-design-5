@@ -8,7 +8,7 @@ import stories from '@/data/stories.js';
   <section class="stories" id="stories">
     <div class="section-header">
       <h2>Community Stories</h2>
-      <p>These stories represent many more—each person finding their place in the Bitcoin design ecosystem.</p>
+      <p>These stories represent many more—each person finding their place in the bitcoin design ecosystem.</p>
     </div>
 
     <div class="items">

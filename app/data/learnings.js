@@ -13,7 +13,7 @@ export default {
     {
       word: "Meetings",
       name: "Async-First Scales Globally",
-      description: "Real-time calls build relationships, async work gets things done. Distributed collaboration across timezones requires both scheduled connection and flexible contribution."
+      description: "Real-time calls build relationships and sync work gets things done. Distributed collaboration across time zones requires both scheduled connections and flexible contributions."
     },
     {
       word: "Free",

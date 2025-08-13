@@ -8,7 +8,7 @@ import info from '@/data/behind-the-scenes.js';
   <section class="behind-the-scenes" id="behind-the-scenes">
     <div class="section-header -white">
       <h2>Behind the Scenes</h2>
-      <p>Our approach to building Bitcoin design tools and resources reflects the values we want to see in Bitcoin itself: open, decentralized, and accessible to everyone.</p>
+      <p>Our approach to building bitcoin design tools and resources reflects the values we want to see in bitcoin: open, decentralized, and accessible to everyone.</p>
     </div>
 
     <div class="content">

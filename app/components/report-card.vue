@@ -10,7 +10,7 @@ import Icons from '@/helpers/icons.js'
 
     <div class="section-header">
       <h2>At a Glance</h2>
-      <p>This isn't just another tech community. This is proof of work.</p>
+      <p>This isn't just another tech community. This is proof-of-work.</p>
     </div>
     <div class="content">
       <div class="stats">
