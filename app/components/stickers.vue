@@ -16,8 +16,11 @@
         <div class="sticker -magic">
           <p>Make magic internet<br/>money feel<br/><strong>magical</strong></p>
         </div>
-        <div class="sticker -utxo">
+        <div class="sticker -utxo" v-if="false">
           <p>UX is<br/>the new<br/><strong>UTXO</strong></p>
+        </div>
+        <div class="sticker -fix">
+          <p>Fix the money<br/><strong>Then fix<br/>the UI</strong></p>
         </div>
       </div>
       <div class="column-right">
@@ -96,12 +99,21 @@
         }
       }
 
-      &.-utxo {
+      &.-utxo  {
         background-color: var(--purple);
 
         p {
           font-size: 36px;
           strong { font-size: 65px; }
+        }
+      }
+
+      &.-fix  {
+        background-color: var(--purple);
+
+        p {
+          font-size: 30px;
+          strong { font-size: 48px; }
         }
       }
 
