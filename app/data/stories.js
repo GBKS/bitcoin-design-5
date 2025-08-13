@@ -5,7 +5,7 @@ export default {
       name: "Eric",
       role: "Designer, Sweden",
       description: "Over the last few months I’ve had the privilege of being supported by the Bitcoin Design Foundation as one of their grantees. It's not lost on me how incredibly lucky I am to wake up each day and work on Bitcoin products.<br/><br/>The responsibility of delivering high-quality work feels heightened in many ways. There's no boss assigning tasks or deadlines, just a goal. It's entirely up to me to set standards and deliver at a level I feel proud of, which means doing the absolute best I can.<br/><br/>During my grant period I initially set out to write the ecash section of the Bitcoin Design Guide. Over time, I expanded my contributions into several other projects.",
-      journey: "Newcomer → Design contibutor → Grant recipient → Community organizer → Ecash champion",
+      journey: "Newcomer → Design contributor → Grant recipient → Community organizer → Ecash champion",
       impact: "His work has had a major impact on wallet design in the ecash ecosystem."
     },
     {
@@ -14,7 +14,7 @@ export default {
       role: "Designer, Canada",
       description: "The past few years have been quite the ride, and in some ways I feel like I'm just getting started! There are several interesting problems to work on. Sometimes the road takes you back to where you've already been, but reveals new and interesting parts of town.<br/><br/>That's what happened to me with payjoin. I did a UX case study on payjoin in 2023, but recently async payjoin has breathed new life into a protocol that failed to gain traction. Liana wallet is a great example of this renewal, who want to help users refresh timelocks with payjoin, and I can't wait to dive head on into this fascinating problem!",
       journey: "Newcomer → Guide contributor → Grant recipient → Privacy champion",
-      impact: "The UX of complex privacy protocols is much better understand and on the road to implementation."
+      impact: "The UX of complex privacy protocols is much better understood and on the road to implementation."
     },
     {
       image: "mogashni",
