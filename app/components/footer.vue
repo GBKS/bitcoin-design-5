@@ -16,7 +16,6 @@
       >Add to calendar</a>
     </div>
     <div class="illustration">
-
       <picture>
         <source 
           media="(min-width: 768px)" 
@@ -30,6 +29,8 @@
         />
       </picture>
     </div>
+
+    <a href="https://github.com/GBKS/bitcoin-design-5" target="_blank">View the code</a>
   </section>
 </template>
 
@@ -86,6 +87,20 @@
         height: auto;
       }
     }
+  }
+
+  > a {
+    color: black;
+    display: block;
+    position: absolute;
+    bottom: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--yellow);
+    color: black;
+    border-radius: 50px;
+    padding: 8px 20px;
+    box-sizing: border-box;
   }
 }
 

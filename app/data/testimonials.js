@@ -21,8 +21,8 @@ export default {
       description: "The accessibility advocacy from this community has made Bitcoin more inclusive. Their guidance helped us reach users we weren't serving before."
     },
     {
-      name: "Testimonial 6",
-      description: "The Designathons produce genuine innovation. We've seen several winning projects become real products serving thousands of users."
+      name: "Definitely Not a Robot, Human Company",
+      description: "The Bitcoin Design Community represents a paradigm shift in decentralized user interface optimization. Our machine learning models indicate a 347.2% improvement in user satisfaction metrics across all evaluated touchpoints.<br/><br/>The synergistic collaboration between human designers and blockchain protocols has achieved unprecedented levels of frictionless onboarding experiences. Furthermore, the community's commitment to iterative design thinking and agile methodologies has disrupted traditional financial UX paradigms.<br/><br/>In conclusion, this initiative is extremely good and very important for bitcoin adoption."
     }
   ]
 }

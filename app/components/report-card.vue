@@ -30,6 +30,7 @@ import Icons from '@/helpers/icons.js'
         <a
           class="cell"
           href="https://github.com/BitcoinDesign/Meta/issues?q=is%3Aissue%20state%3Aclosed%20label%3Acall"
+          target="_blank"
         >
           <h4>Community calls:</h4>
           <p>631</p>
@@ -37,6 +38,7 @@ import Icons from '@/helpers/icons.js'
         <a
           class="cell"
           href="https://www.bitcoinuikit.com/"
+          target="_blank"
         >
           <h4>Figma community file users:</h4>
           <p>15.8k+</p>
@@ -44,6 +46,7 @@ import Icons from '@/helpers/icons.js'
         <a
           class="cell"
           href="https://bitcoin.design/guide/"
+          target="_blank"
         >
           <h4>Bitcoin Design Guide content:</h4>
           <p>95 pages<br/>588 mockups</p>
@@ -51,6 +54,7 @@ import Icons from '@/helpers/icons.js'
         <a
           class="cell"
           href="https://github.com/BitcoinDesign/Guide/pulls?q=is%3Apr+is%3Aclosed"
+          target="_blank"
         >
           <h4>Bitcoin Design Guide activity:</h4>
           <p>3,590 commits<br/>66 contributors</p>
@@ -58,6 +62,7 @@ import Icons from '@/helpers/icons.js'
         <a
           class="cell"
           href="https://bitcoinicons.com/"
+          target="_blank"
         >
           <h4>Bitcoin Icons downloads:</h4>
           <p>45k+</p>
@@ -65,6 +70,7 @@ import Icons from '@/helpers/icons.js'
         <a
           class="cell"
           href="https://bitcoin.design/social-media/"
+          target="_blank"
         >
           <h4>Community reach:</h4>
           <p>8,833</p>
@@ -72,13 +78,15 @@ import Icons from '@/helpers/icons.js'
         <a
           class="cell"
           href="https://www.youtube.com/c/BitcoinDesign"
+          target="_blank"
         >
-          <h4>YouTube views:</h4>
-          <p>31,500</p>
+          <h4>YouTube hours watched:</h4>
+          <p>3,300</p>
         </a>
         <a
           class="cell"
           href="https://opencollective.com/bitcoin-design-foundation"
+          target="_blank"
         >
           <h4>Foundation donations received:</h4>
           <p>€481k+</p>

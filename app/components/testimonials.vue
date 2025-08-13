@@ -52,7 +52,7 @@ const openOverlay = (info) => {
   flex-direction: column;
   align-items: center;
   padding: 75px 15px;
-  gap: 50px;
+  gap: 75px;
   position: relative;
 
   .items {
