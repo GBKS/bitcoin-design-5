@@ -109,6 +109,17 @@ const classObject = computed(() => {
     &:nth-child(6n+5) { transform: translateX(-120px); }
     &:nth-child(6n+6) { transform: translateX(-40px); }
   }
+
+  @media (prefers-contrast: more) {
+    border-color: black;
+    background-color: white;
+
+    .copy {
+      p {
+        color: black;
+      }
+    }
+  }
 }
 
 </style>

@@ -173,6 +173,26 @@ function selectTag(tag) {
     min-height: 240px;
     flex-basis: 20%;
   }
+
+  @media (prefers-contrast: more) {
+    .tags {
+      a, button {
+        border: 1px solid black;
+        box-sizing: border-box;
+        background-color: white;
+        color: black;
+
+        &:hover {
+          background-color: #999;
+        }
+
+        &.-active {
+          background-color: black;
+          color: white;
+        }
+      }
+    }
+  }
 }
 
 </style>

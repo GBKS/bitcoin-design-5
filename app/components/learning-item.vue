@@ -72,6 +72,15 @@ const classObject = computed(() => {
   &.-index-3 { background-color: var(--grey); transform: rotate(-6.06deg); }
   &.-index-4 { background-color: var(--purple); transform: rotate(-3.16deg); }
   &.-index-5 { background-color: var(--brown); transform: rotate(3.61deg); }
+
+  @media (prefers-contrast: more) {
+    &.-index-1 { 
+      h4,
+      p.-description {
+        color: black;
+      }
+    }
+  }
 }
 
 </style>
