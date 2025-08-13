@@ -6,7 +6,8 @@ export default {
       role: "Designer, Sweden",
       description: "Over the last few months I’ve had the privilege of being supported by the Bitcoin Design Foundation as one of their grantees. It's not lost on me how incredibly lucky I am to wake up each day and work on Bitcoin products.<br/><br/>The responsibility of delivering high-quality work feels heightened in many ways. There's no boss assigning tasks or deadlines, just a goal. It's entirely up to me to set standards and deliver at a level I feel proud of, which means doing the absolute best I can.<br/><br/>During my grant period I initially set out to write the ecash section of the Bitcoin Design Guide. Over time, I expanded my contributions into several other projects.",
       journey: "Newcomer → Design contibutor → Grant recipient → Community organizer → Ecash champion",
-      impact: "His work has had a major impact on wallet design in the ecash ecosystem."
+      impact: "His work has had a major impact on wallet design in the ecash ecosystem.",
+      link: 'https://habla.news/u/erik@primal.net/1755081509002'
     },
     {
       image: "yashraj",

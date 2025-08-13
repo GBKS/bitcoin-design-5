@@ -260,7 +260,7 @@ export default {
     },
     {
       name: "10th Foundation grant announced",
-      date: "3/2024",
+      date: "8/2025",
       link: "#",
       image: "tenth-grant",
     },
