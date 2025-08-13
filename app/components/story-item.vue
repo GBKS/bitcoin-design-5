@@ -20,13 +20,15 @@ const props = defineProps({
     />
     <h4>{{ info.name }}</h4>
     <p class="-role">{{ info.role }}</p>
-    <p class="-description">{{ info.description }}</p>
-    <p class="-journey">{{ info.journey }}</p>
-    <p class="-impact">{{ info.impact }}</p>
+    <p class="-description" v-html="`&quot;${info.description}&quot;`" />
+    <p class="-journey" v-if="info.journey">The Journey: {{ info.journey }}</p>
+    <p class="-impact" v-if="info.impact">Impact: {{ info.impact }}</p>
   </div>
 </template>
 
 <style scoped lang="scss">
+
+@use "@/assets/css/mixins.scss";
 
 .story-item {
   border: 2px solid rgba(black, 0.2);
@@ -58,21 +60,26 @@ const props = defineProps({
 
     &.-description {
       margin-top: 30px;
-      font-size: 21px;
+      font-size: 19px;
       font-style: italic;
     }
 
     &.-journey {
       margin-top: 30px;
-      font-size: 17px;
+      font-size: 15px;
       font-style: italic;
     }
 
     &.-impact {
       margin-top: 10px;
-      font-size: 17px;
+      font-size: 15px;
       font-style: italic;
     }
+  }
+
+  @include mixins.media-query(small) {
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
 
