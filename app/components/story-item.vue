@@ -20,16 +20,24 @@ const props = defineProps({
     />
     <h4>{{ info.name }}</h4>
     <p class="-role">{{ info.role }}</p>
-    <p class="-description">{{ info.description }}</p>
-    <p class="-journey">{{ info.journey }}</p>
-    <p class="-impact">{{ info.impact }}</p>
+    <p class="-description" v-html="`&quot;${info.description}&quot;`" />
+    <a
+      v-if="info.link"
+      :href="info.link"
+      target="_blank"
+      rel="noopener noreferrer"
+    >Read more</a>
+    <p class="-journey" v-if="info.journey">The Journey: {{ info.journey }}</p>
+    <p class="-impact" v-if="info.impact">Impact: {{ info.impact }}</p>
   </div>
 </template>
 
 <style scoped lang="scss">
 
+@use "@/assets/css/mixins.scss";
+
 .story-item {
-  border: 2px solid rgba(black, 0.2);
+  border: 2px solid rgba(white, 0.5);
   padding: 100px 40px 40px 40px;
   border-radius: 40px;
   position: relative;
@@ -50,6 +58,17 @@ const props = defineProps({
     font-size: 64px;
   }
 
+  > a {
+    display: inline-block;
+    margin-top: 10px;
+    color: black;
+    font-size: 19px;
+
+    &:hover {
+      color: var(--purple);
+    }
+  }
+
   p {
     &.-role {
       margin-top: 5px;
@@ -58,21 +77,26 @@ const props = defineProps({
 
     &.-description {
       margin-top: 30px;
-      font-size: 21px;
+      font-size: 19px;
       font-style: italic;
     }
 
     &.-journey {
       margin-top: 30px;
-      font-size: 17px;
+      font-size: 15px;
       font-style: italic;
     }
 
     &.-impact {
       margin-top: 10px;
-      font-size: 17px;
+      font-size: 15px;
       font-style: italic;
     }
+  }
+
+  @include mixins.media-query(small) {
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
 
