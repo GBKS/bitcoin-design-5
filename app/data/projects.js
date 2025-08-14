@@ -14,13 +14,6 @@ export default {
       tags: ["2021", "Branding", "Community", "Lightning"]
     },
     {
-      name: "Bitcoin Development Kit",
-      link: "https://github.com/BitcoinDesign/Meta/issues/718",
-      image: 'bdk.svg',
-      website: "https://bitcoindevkit.org",
-      tags: ["2024", "Research", "Branding", "Collaboration"]
-    },
-    {
       name: "Bipa Wallet",
       link: "https://x.com/bitcoin_design/status/1891917254758994345",
       image: 'bipa.png',
@@ -28,11 +21,17 @@ export default {
       tags: ["2025", "Bootcamp"]
     },
     {
-      name: "Blink",
-      link: "https://github.com/BitcoinDesign/Meta/issues/195",
-      image: 'blink.svg',
-      website: "https://www.blink.sv/",
-      tags: ["2021", "Design review", "Lightning"]
+      name: "Bitcoin Development Kit",
+      link: "https://github.com/BitcoinDesign/Meta/issues/718",
+      image: 'bdk.svg',
+      website: "https://bitcoindevkit.org",
+      tags: ["2024", "Research", "Branding", "Collaboration"]
+    },
+    {
+      name: "Bitcoin UI Kit",
+      image: 'bitcoin-ui-kit.svg',
+      website: "https://www.bitcoinuikit.com",
+      tags: ["2022", "Collaboration"]
     },
     {
       name: "Bitcoin Core App",
@@ -49,25 +48,25 @@ export default {
       tags: ["2021", "Resources"]
     },
     {
+      name: "Bitcoin Smiles",
+      link: "https://bitcoinsmiles.org/",
+      image: 'bitcoin-smiles.svg',
+      website: "https://bitcoinsmiles.org/",
+      tags: ["2022", "Branding", "Web design"]
+    },
+    {
+      name: "Blink",
+      link: "https://github.com/BitcoinDesign/Meta/issues/195",
+      image: 'blink.svg',
+      website: "https://www.blink.sv/",
+      tags: ["2021", "Design review", "Lightning"]
+    },
+    {
       name: "Blixt",
       link: "https://github.com/BitcoinDesign/Meta/issues/177",
       image: 'blixt.png',
       website: "https://blixtwallet.github.io/",
       tags: ["2021", "Design review", "Lightning"]
-    },
-    {
-      name: "Border Wallets",
-      link: "https://github.com/BitcoinDesign/Meta/issues/654",
-      image: 'border-wallets.png',
-      website: "https://www.borderwallets.com/",
-      tags: ["2024", "Summer of Bitcoin", "Education"]
-    },
-    {
-      name: "Damus",
-      link: "https://github.com/BitcoinDesign/Meta/issues/531",
-      image: 'damus.png',
-      website: "https://damus.io/",
-      tags: ["2023", "Design review", "Nostr", "Lightning"]
     },
     {
       name: "Bitcoin UX Research Toolkit",
@@ -98,11 +97,11 @@ export default {
       tags: ["2024", "Education"]
     },
     {
-      name: "Geyser",
-      link: "https://github.com/BitcoinDesign/Meta/issues/122",
-      image: 'geyser.svg',
-      website: "https://geyser.fund/",
-      tags: ["2021", "Design review", "Community"]
+      name: "Border Wallets",
+      link: "https://github.com/BitcoinDesign/Meta/issues/654",
+      image: 'border-wallets.png',
+      website: "https://www.borderwallets.com/",
+      tags: ["2024", "Summer of Bitcoin", "Education"]
     },
     {
       name: "Blockstream App",
@@ -130,13 +129,6 @@ export default {
       link: "https://github.com/BitcoinDesign/Meta/issues?q=bolt.fun",
       image: 'bolt-fun.png',
       tags: ["2022", "Collaboration", "Community"]
-    },
-    {
-      name: "Lawallet",
-      link: "https://x.com/bitcoin_design/status/1891918920501645721",
-      image: 'lawallet.png',
-      website: "https://lawallet.io/",
-      tags: ["2025", "Education", "Bootcamp"]
     },
     {
       name: "Breez",
@@ -167,11 +159,32 @@ export default {
       tags: ["2022", "Design review", "Collaboration", "Education"]
     },
     {
-      name: "Mutiny",
-      link: "https://github.com/BitcoinDesign/Meta/issues/672",
-      image: 'mutiny.svg',
-      website: "https://blog.mutinywallet.com/mutiny-wallet-is-shutting-down/",
-      tags: ["2024", "Design review", "Lightning"]
+      name: "Cashu.me",
+      link: "https://wallet.cashu.me/",
+      image: 'cashu-me.png',
+      website: "https://wallet.cashu.me/",
+      tags: ["2023", "UX Design", "Ecash"]
+    },
+    {
+      name: "eNuts",
+      link: "https://github.com/cashubtc/eNuts/discussions/214",
+      image: 'enuts.png',
+      website: "https://www.enuts.cash/",
+      tags: ["2023", "UX Design", "Collaboration", "Ecash"]
+    },
+    {
+      name: "Geyser",
+      link: "https://github.com/BitcoinDesign/Meta/issues/122",
+      image: 'geyser.svg',
+      website: "https://geyser.fund/",
+      tags: ["2021", "Design review", "Community"]
+    },
+    {
+      name: "Damus",
+      link: "https://github.com/BitcoinDesign/Meta/issues/531",
+      image: 'damus.png',
+      website: "https://damus.io/",
+      tags: ["2023", "Design review", "Nostr", "Lightning"]
     },
     {
       name: "Dana Wallet",
@@ -202,11 +215,11 @@ export default {
       tags: ["2025", "Design review"]
     },
     {
-      name: "Padawan",
-      link: "https://github.com/BitcoinDesign/Meta/issues/326",
-      image: 'padawan.svg',
-      website: "https://padawanwallet.com/",
-      tags: ["2022", "Education"]
+      name: "Lawallet",
+      link: "https://x.com/bitcoin_design/status/1891918920501645721",
+      image: 'lawallet.png',
+      website: "https://lawallet.io/",
+      tags: ["2025", "Education", "Bootcamp"]
     },
     {
       name: "Hello Bitcoin",
@@ -272,11 +285,11 @@ export default {
       tags: ["2024", "Education", "Bootcamp"]
     },
     {
-      name: "Satsymbol.org",
-      link: "https://youtu.be/UyDGfFboHPw",
-      image: 'satsymbol.png',
-      website: "https://satsymbol.org/",
-      tags: ["2024", "Design review"]
+      name: "Mutiny",
+      link: "https://github.com/BitcoinDesign/Meta/issues/672",
+      image: 'mutiny.svg',
+      website: "https://blog.mutinywallet.com/mutiny-wallet-is-shutting-down/",
+      tags: ["2024", "Design review", "Lightning"]
     },
     {
       name: "Muun",
@@ -307,11 +320,11 @@ export default {
       tags: ["2022", "Design review"]
     },
     {
-      name: "Sovran",
-      link: "https://sovran.money/",
-      image: 'sovran.png',
-      website: "https://sovran.money/",
-      tags: ["2024", "Education", "Ecash"]
+      name: "Padawan",
+      link: "https://github.com/BitcoinDesign/Meta/issues/326",
+      image: 'padawan.svg',
+      website: "https://padawanwallet.com/",
+      tags: ["2022", "Education"]
     },
     {
       name: "Payjoin",
@@ -342,11 +355,18 @@ export default {
       tags: ["2025", "Design review", "Privacy"]
     },
     {
-      name: "Tiankii",
-      link: "https://github.com/BitcoinDesign/Meta/issues/431",
-      image: 'tiankii.png',
-      website: "https://www.tiankii.com/",
-      tags: ["2023", "Design review"]
+      name: "Satsymbol.org",
+      link: "https://youtu.be/UyDGfFboHPw",
+      image: 'satsymbol.png',
+      website: "https://satsymbol.org/",
+      tags: ["2024", "Design review"]
+    },
+    {
+      name: "Sovran",
+      link: "https://sovran.money/",
+      image: 'sovran.png',
+      website: "https://sovran.money/",
+      tags: ["2024", "Education", "Ecash"]
     },
     {
       name: "Revault",
@@ -370,11 +390,11 @@ export default {
       tags: ["2023", "Design review", "Game"]
     },
     {
-      name: "Wallet of Satoshi",
-      link: "https://github.com/BitcoinDesign/Meta/issues/516",
-      image: 'wallet-of-satoshi.svg',
-      website: "https://www.walletofsatoshi.com/",
-      tags: ["2023", "A11y test", "Design review", "Lightning"]
+      name: "Tiankii",
+      link: "https://github.com/BitcoinDesign/Meta/issues/431",
+      image: 'tiankii.png',
+      website: "https://www.tiankii.com/",
+      tags: ["2023", "Design review"]
     },
     {
       name: "Save our Wallets",
@@ -440,13 +460,6 @@ export default {
       tags: ["2024", "Education", "Bootcamp"]
     },
     {
-      name: "Bitcoin Smiles",
-      link: "https://bitcoinsmiles.org/",
-      image: 'bitcoin-smiles.svg',
-      website: "https://bitcoinsmiles.org/",
-      tags: ["2022", "Branding", "Web design"]
-    },
-    {
       name: "TwelveCash",
       link: "https://twelve.cash/",
       image: 'twelve-cash.png',
@@ -474,10 +487,11 @@ export default {
       tags: ["2022", "Design review"]
     },
     {
-      name: "Bitcoin UI Kit",
-      image: 'bitcoin-ui-kit.svg',
-      website: "https://www.bitcoinuikit.com",
-      tags: ["2022", "Collaboration"]
+      name: "Wallet of Satoshi",
+      link: "https://github.com/BitcoinDesign/Meta/issues/516",
+      image: 'wallet-of-satoshi.svg',
+      website: "https://www.walletofsatoshi.com/",
+      tags: ["2023", "A11y test", "Design review", "Lightning"]
     },
     {
       name: "WalletScrutiny",
