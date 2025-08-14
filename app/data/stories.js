@@ -21,7 +21,7 @@ export default {
       image: "mogashni",
       name: "Mo",
       role: "UX Researcher, Netherlands",
-      description: "-",
+      description: "o( ❛ᴗ❛ )o",
       journey: "Newcomer → Design contributor → Research champion → Community organizer → Foundation administrator",
       impact: "Her focus and engagement around user research has drawn much attention to the importance of user-centered design in the Bitcoin space."
     },
@@ -31,7 +31,8 @@ export default {
       role: "Designer, Czech Republic",
       description: "I first got to know about the Bitcoin Core App in late 2022, when I came across the Bitcoin Design Community. After some lurking around on their Slack (now Discord), I created a new Figma file and started contributing to the project. At the same time, I took part in the community’s first Designathon. Together with Gene, we worked on a design concept for an inheritance wallet. Surprisingly, we ended up in 1st place.<br/><br/>These two experiences nudged me further to pursue a career in the Bitcoin space. I received a design grant from Spiral, to contribute inheritance-related content to the Bitcoin Design Guide.<br/><br/>The decision to get involved with the Bitcoin Design Community was a turning point for me and I want to see the Bitcoin Core App project succeed.",
       journey: "Newcomer → Design contributor → Hackathon winner → Grant recipient → Guide contributor → Designer at Trezor",
-      impact: "His design work on inheritance is uniquely useful in the ecosystem."
+      impact: "His design work on inheritance is uniquely useful in the ecosystem.",
+      link: "https://michaelhaase.substack.com/p/working-on-the-bitcoin-core-app-as"
     }
   ]
 }
