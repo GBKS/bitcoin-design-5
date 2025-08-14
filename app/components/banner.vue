@@ -88,6 +88,14 @@
       margin-top: -100px;
     }
   }
+
+  @media (prefers-contrast: more) {
+    .copy {
+      h1 {
+        color: black;
+      }
+    }
+  }
 }
 
 </style>

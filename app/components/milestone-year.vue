@@ -128,6 +128,10 @@ const listStyle = computed(() => {
     font-size: 400px;
     line-height: 1;
   }
+
+  @media (prefers-contrast: more) {
+    color: black;
+  }
 }
 
 </style>

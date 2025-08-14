@@ -99,6 +99,14 @@ const isLast = computed(() => {
   @include mixins.media-query(large) {
     
   } 
+
+  @media (prefers-contrast: more) {
+    background-color: black;
+
+    button {
+      color: white;
+    }
+  }
 }
 
 </style>
