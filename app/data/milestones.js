@@ -261,7 +261,7 @@ export default {
     {
       name: "10th Foundation grant announced",
       date: "8/2025",
-      link: "#",
+      link: "https://opencollective.com/bitcoin-design-foundation/updates/h1-2025-review",
       image: "tenth-grant",
     },
     {
