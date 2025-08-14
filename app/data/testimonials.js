@@ -14,11 +14,11 @@ export default {
     },
     {
       name: "Testimonial 4",
-      description: "The Bitcoin Design Guide became our go-to resource for building user-friendly Bitcoin applications. It saved us months of research and design work."
+      description: "☆*:.｡.o(≧▽≦)o.｡.:*☆"
     },
     {
       name: "Testimonial 5",
-      description: "The accessibility advocacy from this community has made Bitcoin more inclusive. Their guidance helped us reach users we weren't serving before."
+      description: "	٩(◕‿◕)۶"
     },
     {
       name: "Definitely Not a Robot, Human Company",
