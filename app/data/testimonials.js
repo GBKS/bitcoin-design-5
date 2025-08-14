@@ -9,8 +9,8 @@ export default {
       description: "In 2020, a fire was lit. Few were talking about design and user experience in bitcoin, yet a transformative technology demanded a compelling narrative for interaction—one that invites everyone, not just gatekept for us nerds. The Bitcoin Design Community was born to make that vision real, a world where Freedom Tech is accessible to all.<br/><br/>Great design is more than aesthetics; it’s taste, storytelling, and experience woven into every interaction. We’ve seen other cryptographic systems falter when complexity overshadows clarity, when the story fails to inspire. Bitcoin’s promise—decentralized, borderless, empowering—deserves better. It demands interfaces that feel intuitive, narratives that resonate, and experiences that welcome.<br/><br/>Five years in and, we’ve crafted tools like the Bitcoin Design Guide and UI Kit, shaping payments and privacy into experiences anyone can navigate. We’ve rallied designers and developers to reimagine what bitcoin can be, to come together and build new tools like Alby. The work on UX Research Kit, appearances at technical events like Bitcoin Honey Badger, Advancing Bitcoin which is typically developer focus proves that good design can bridge gaps, making financial freedom tangible for communities often left behind.<br/><br/>Designers, rise up. Our creativity, our taste, our stories—they are the bridge to bitcoin’s future. Let’s craft experiences that don’t just function but inspire, that don’t just work but welcome. The next five years belong to us—to design bitcoin for everyone."
     },
     {
-      name: "Testimonial 3",
-      description: "The collaborative approach to design feedback has made our wallet more accessible to users worldwide. The community's expertise in global Bitcoin adoption is invaluable."
+      name: "Adam Jonas, Chaincode",
+      description: "Bitcoin's technological brilliance is undeniable, but its complexity has kept it within technical circles. Thank you to the design community for their crucial role in bringing this innovation to broader audiences."
     },
     {
       name: "Testimonial 4",
