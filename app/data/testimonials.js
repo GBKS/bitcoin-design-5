@@ -17,7 +17,7 @@ export default {
     },
     {
       name: "Yashraj, grantee ",
-      description: "I discovered Bitcoin Design Community at a time of great personal tumult. Both bitcoin and BDC embraced me with 'open' arms, and helped me find my purpose again."
+      description: "I discovered Bitcoin Design Community at a time of great personal tumult. Both bitcoin and BDC embraced me with 'open' arms, and helped me find my purpose again.",
       link: 'https://github.com/yashrajd'
     }
   ]
