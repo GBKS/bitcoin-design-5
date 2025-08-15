@@ -208,6 +208,13 @@ export default {
       tags: ["2022", "Collaboration", "Ecash"]
     },
     {
+      name: "Here comes bitcoin",
+      link: "https://discord.gg/BChUGPzS5U",
+      image: 'herecomesbitcoin.png',
+      website: "https://www.herecomesbitcoin.org/",
+      tags: ["2024", "Resources", "Collaboration"]
+    },
+    {
       name: "Lana",
       link: "https://github.com/BitcoinDesign/Meta/issues/758",
       image: 'lana.svg',
