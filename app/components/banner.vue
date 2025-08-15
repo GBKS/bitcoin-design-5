@@ -18,7 +18,7 @@
       </picture>
     </div>
     <div class="copy">
-      <h1>5 years of<br/>Bitcoin Design</h1>
+      <h1>5 years of<br/><a href="https://bitcoin.design/" target="_blank" rel="me">Bitcoin Design</a></h1>
       <h2>Designing Bitcoin For Everyone, With Everyone</h2>
       <p>2020–2025. Five years. Hundreds of calls. Thousands of contributors. One global design community building Bitcoin UX in public.</p>
     </div>
@@ -61,6 +61,11 @@
       -webkit-text-stroke: 10px #F1C31C;
       paint-order: stroke fill;
       @include mixins.r('font-size', 51, 77);
+
+      a {
+        color: white;
+        text-decoration: none;
+      }
     }
 
     h2 {
