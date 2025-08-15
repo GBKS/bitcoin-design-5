@@ -72,6 +72,13 @@
         </div>
         
         <p>Everyone uses bitcoin</p>
+        <img
+          src="/images/bitty-coder.png"
+          width="200"
+          height="113"
+          alt="Bitty the coder"
+          loading="lazy"
+        >
       </div>
     </div>
     
@@ -105,6 +112,12 @@
         color: white;
         font-family: var(--scribble-font);
         font-size: 33px;
+
+        &:nth-of-type(2) {
+          & + img {
+            margin-top: 10px;
+          }
+        }
       }
     
       .items {
@@ -171,6 +184,10 @@
 
         > p {
           width: 100%;
+        }
+
+        img {
+          align-self: flex-start;
         }
 
         .items {
