@@ -19,15 +19,6 @@ export default {
       name: "Yashraj, grantee ",
       description: "I discovered Bitcoin Design Community at a time of great personal tumult. Both bitcoin and BDC embraced me with 'open' arms, and helped me find my purpose again."
       link: 'https://github.com/yashrajd'
-    },
-    {
-      name: "Testimonial 5",
-      description: "	٩(◕‿◕)۶"
-
-    },
-    {
-      name: "Definitely Not a Robot, Human Company",
-      description: "The Bitcoin Design Community represents a paradigm shift in decentralized user interface optimization. Our machine learning models indicate a 347.2% improvement in user satisfaction metrics across all evaluated touchpoints.<br/><br/>The synergistic collaboration between human designers and blockchain protocols has achieved unprecedented levels of frictionless onboarding experiences. Furthermore, the community's commitment to iterative design thinking and agile methodologies has disrupted traditional financial UX paradigms.<br/><br/>In conclusion, this initiative is extremely good and very important for bitcoin adoption."
     }
   ]
 }
