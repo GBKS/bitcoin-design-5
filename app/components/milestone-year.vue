@@ -121,7 +121,11 @@ const listStyle = computed(() => {
   @include mixins.media-query(small) {
     flex-direction: column;
     font-size: 300px;
-    line-height: 0.8;
+    line-height: 1;
+
+    .second {
+      margin-top: -20px;
+    }
   }
 
   @include mixins.media-query(medium-up) {

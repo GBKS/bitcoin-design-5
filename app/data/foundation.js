@@ -21,32 +21,38 @@ export default {
     {
       name: "Mo",
       role: "Admin",
-      image: "mogashni"
+      image: "mogashni",
+      link: "https://www.linkedin.com/in/mogashninaidoo/"
     },
     {
       name: "Christoph",
       role: "Admin",
-      image: "christoph"
+      image: "christoph",
+      link: "https://www.linkedin.com/in/germanysbestkeptsecret/"
     },
     {
       name: "Daniel",
       role: "Admin",
-      image: "daniel"
+      image: "daniel",
+      link: "https://www.linkedin.com/in/dnordh/"
     },
     {
       name: "Basak",
       role: "Board",
-      image: "basak"
+      image: "basak",
+      link: "https://www.linkedin.com/in/basak-haznedaroglu-61099634/"
     },
     {
       name: "Conor",
       role: "Board",
-      image: "conor"
+      image: "conor",
+      link: "https://www.linkedin.com/in/conorokus/"
     },
     {
       name: "Johns",
       role: "Board",
-      image: "johns"
+      image: "johns",
+      link: "https://www.linkedin.com/in/johnsbeharry/",
     }
   ]
 }

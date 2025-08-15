@@ -107,6 +107,16 @@ function selectTag(tag) {
     }
   }
 
+  &:hover {
+    background-color: rgba(black, 0.01);
+
+    .tags {
+      a, button {
+        background-color: #ededed;
+      }
+    }
+  }
+
   .tags {
     display: flex;
     flex-wrap: wrap;

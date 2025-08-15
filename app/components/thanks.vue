@@ -51,7 +51,6 @@
 
   .sheet {
     background-color: white;
-    padding: 40px;
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     max-width: 800px;
@@ -108,8 +107,15 @@
     }
   }
 
+  @include mixins.media-query(medium-down) {
+    .sheet {
+      padding: 30px 20px;
+    }
+  }
+
   @include mixins.media-query(large) {
     .sheet {
+      padding: 40px;
       transform: rotate(-3deg);
     }
   }

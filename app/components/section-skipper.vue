@@ -63,6 +63,7 @@ const isLast = computed(() => {
   border-radius: 100px;
   display: flex;
   gap: 0;
+  z-index: 1000;
   padding: 3px 8px;
   background-color: var(--yellow);
   box-shadow: 0 10px 30px -15px rgba(black, 0.75);

@@ -57,7 +57,7 @@ const openOverlay = (info) => {
 
   .items {
     width: 100%;
-    max-width: 1340px;
+    max-width: 1040px;
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
@@ -75,7 +75,7 @@ const openOverlay = (info) => {
   @include mixins.media-query(medium-up) {
     .items {
       > * {
-        flex-basis: 26%;
+        flex-basis: 36%;
         flex-grow: 1;
       }
     }

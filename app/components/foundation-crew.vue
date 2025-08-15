@@ -7,10 +7,20 @@ const props = defineProps({
   }
 });
 
+const type = computed(() => {
+  return props.info.link ? 'a' : 'div';
+});
+
 </script>
 
 <template>
-  <div class="foundation-crew">
+  <component
+    :is="type"
+    class="foundation-crew"
+    :href="info.link"
+    :target="info.link ? '_blank' : undefined"
+    :rel="info.link ? 'noopener noreferrer' : undefined"
+  >
     <img
       :src="'/images/foundation/' + info.image + '.webp'"
       :alt="info.name"
@@ -22,7 +32,7 @@ const props = defineProps({
       <h4>{{ info.name }}</h4>
       <p>{{ info.role }}</p>
     </div>
-  </div>
+  </component>
 </template>
 
 <style scoped lang="scss">
@@ -32,6 +42,7 @@ const props = defineProps({
 .foundation-crew {
   display: flex;
   align-items: center;
+  padding: 20px 10px 15px;
 
   img {
     width: 100px;
@@ -51,6 +62,22 @@ const props = defineProps({
       margin-top: 5px;
       font-size: 19px;
       color: #D4D4D4;
+    }
+  }
+
+  &:is(a) {
+    text-decoration: none;
+    border-radius: 15px;
+
+    &:hover {
+      color: var(--yellow);
+      background-color: rgba(var(--yellowRGB), 0.1);
+
+      .info {
+        h4,p {
+          color: var(--yellow);
+        }
+      }
     }
   }
 

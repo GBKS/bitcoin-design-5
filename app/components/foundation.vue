@@ -77,6 +77,8 @@ import info from '@/data/foundation.js';
   @include mixins.media-query(small) {
     .items {
       flex-direction: column;
+      padding-left: 5px;
+      padding-right: 5px;
     }
 
     .crew {

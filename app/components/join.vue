@@ -6,8 +6,8 @@
   <section class="join" id="join">
     <div class="illustration">
       <img
-        src="/images/join.webp"
-        srcset="/images/join.webp 1x, /images/join@2x.webp 2x"
+        src="/images/join-2.webp"
+        srcset="/images/join-2.webp 1x, /images/join-2@2x.webp 2x"
         alt="Whimsical illustration of a large yellow doorway or portal with black and white striped steps leading up to it. The doorway opens to a starry night sky filled with white dots resembling stars or snow. The bright yellow background surrounds a garden-like scene with colorful flowers, plants, and small floating icons representing various digital elements like chat bubbles, cameras, and interface symbols. The overall style is playful and dreamlike, suggesting a transition between the digital world and a magical or cosmic space."
         loading="lazy"
         width="740"
@@ -15,7 +15,7 @@
       >
     </div>
     <div class="copy">
-      <h2>How to Join</h2>
+      <h2>Join Us</h2>
       <p>If designing for bitcoin interests you, come and join us. The best time to join was five years ago. The second-best time is today. We’re not sure about the third-best.</p>
 
       <a

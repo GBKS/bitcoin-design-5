@@ -58,6 +58,7 @@ import info from '@/data/behind-the-scenes.js';
         font-size: 19px;
         font-weight: 500;
         color: white;
+        text-wrap: balance;
       }
 
       img {
@@ -78,6 +79,12 @@ import info from '@/data/behind-the-scenes.js';
 
   @include mixins.media-query(small) {
     .content {
+      .illustration {
+        p {
+          text-align: center;
+        }
+      }
+
       .items {
         margin-top: 40px;
       }

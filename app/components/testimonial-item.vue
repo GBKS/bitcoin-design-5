@@ -41,7 +41,10 @@ const isShortened = computed(() => {
   <div :class="classObject">
     <p v-if="isShortened">{{ description }} <span>more</span></p>
     <p v-if="!isShortened">{{ description }}</p>
-    <h4>{{ info.name }}</h4>
+    <h4 v-if="info.link">
+      <a :href="info.link" target="_blank" rel="noopener noreferrer">{{ info.name }}</a>
+    </h4>
+    <h4 v-if="!info.link">{{ info.name }}</h4>
   </div>
 </template>
 
@@ -89,6 +92,15 @@ const isShortened = computed(() => {
     margin-top: 10px;
     font-family: var(--scribble-font);
     font-size: 24px;
+
+    a {
+      color: var(--purple);
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
   }
 
   &.-shortened {
