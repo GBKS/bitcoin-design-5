@@ -27,8 +27,10 @@ const props = defineProps({
       target="_blank"
       rel="noopener noreferrer"
     >Read more</a>
-    <p class="-journey" v-if="info.journey">The Journey: {{ info.journey }}</p>
-    <p class="-impact" v-if="info.impact">Impact: {{ info.impact }}</p>
+    <h5>The journey</h5>
+    <p class="-journey" v-if="info.journey">{{ info.journey }}</p>
+    <h5>Impact</h5>
+    <p class="-impact" v-if="info.impact">{{ info.impact }}</p>
     <div class="follow">
       <a
         v-if="info.linkedin"
@@ -67,7 +69,8 @@ const props = defineProps({
 @use "@/assets/css/mixins.scss";
 
 .story-item {
-  border: 2px solid rgba(white, 0.5);
+  background-color: rgba(white, 0.15);
+  border: 2px solid rgba(black, 0.15);
   padding: 100px 40px 40px 40px;
   border-radius: 40px;
   position: relative;
@@ -99,6 +102,17 @@ const props = defineProps({
     }
   }
 
+  h5 {
+    font-size: 19px;
+    font-weight: 500;
+
+    &:first-of-type {
+      border-top: 2px solid rgba(black, 0.15);
+      margin-top: 30px;
+      padding-top: 30px;
+    }
+  }
+
   p {
     &.-role {
       margin-top: 5px;
@@ -112,15 +126,17 @@ const props = defineProps({
     }
 
     &.-journey {
-      margin-top: 30px;
+      margin-top: 5px;
       font-size: 15px;
-      font-style: italic;
     }
 
     &.-impact {
-      margin-top: 10px;
+      margin-top: 5px;
       font-size: 15px;
-      font-style: italic;
+    }
+
+    & + h5 {
+      margin-top: 15px;
     }
   }
 

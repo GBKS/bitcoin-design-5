@@ -75,6 +75,8 @@ onMounted(() => {
   window.addEventListener('scroll', () => {
     activeSection.value = getSectionAtViewportCenter();
   });
+
+  console.log('Join Bitcoin Design: https://bitcoin.design');
 })
 
 </script>

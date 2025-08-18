@@ -138,6 +138,15 @@ section {
             @include mixins.r('font-size', 21, 24);
             opacity: 0.8;
             text-wrap: balance;
+
+            a {
+                color: black;
+                text-decoration: underline;
+
+                &:hover {
+                    color: var(--purple);
+                }
+            }
         }
 
         &.-yellow {

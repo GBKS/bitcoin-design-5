@@ -89,7 +89,7 @@ onMounted(() => {
 
     <div class="section-header">
       <h2>Global Reach</h2>
-      <p>We respect privacy, so we are not sure where everyone in the community is from. But here’s some data we gathered from Substack, YouTube and Umami analytics.</p>
+      <p>We respect privacy, so we are not sure where everyone in the community is from. But here’s some data we gathered from <a href="https://bitcoindesign.substack.com" target="_blank">Substack</a>, <a href="https://www.youtube.com/c/BitcoinDesign" target="_blank">YouTube</a> and <a href="https://info.bitcoin.design/share/V7Iv1L3zfTzbfmEp/bitcoin.design" target="_blank">Umami analytics.</a></p>
     </div>
 
     <div class="content">
