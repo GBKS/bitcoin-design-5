@@ -168,6 +168,7 @@ onMounted(() => {
         aspect-ratio: 1;
         transform: translate(-50%, -50%);
         width: 1.2%;
+        height: 2.772%;
         padding: 0.15%;
 
         > div {

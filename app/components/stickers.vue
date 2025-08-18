@@ -5,7 +5,7 @@
 <template>
   <section class="stickers" id="stickers">
     <div class="section-header">
-      <h2>What we Believe</h2>
+      <h2>What We Believe</h2>
       <p>What drives our community-first approach.</p>
     </div>
     <div class="items">
