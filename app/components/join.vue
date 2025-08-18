@@ -11,7 +11,7 @@
         alt="Whimsical illustration of a large yellow doorway or portal with black and white striped steps leading up to it. The doorway opens to a starry night sky filled with white dots resembling stars or snow. The bright yellow background surrounds a garden-like scene with colorful flowers, plants, and small floating icons representing various digital elements like chat bubbles, cameras, and interface symbols. The overall style is playful and dreamlike, suggesting a transition between the digital world and a magical or cosmic space."
         loading="lazy"
         width="740"
-        height="521"
+        height="602"
       >
     </div>
     <div class="copy">
