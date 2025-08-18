@@ -81,7 +81,7 @@ const type = computed(() => {
     }
   }
 
-  @include mixins.media-query(small) {
+  @include mixins.media-query(medium-down) {
     flex-basis: 40%;
     flex-grow: 1;
     gap: 15px;
@@ -98,7 +98,7 @@ const type = computed(() => {
     }
   }
 
-  @include mixins.media-query(medium-up) {
+  @include mixins.media-query(large) {
     flex-basis: 15%;
     flex-grow: 1;
     flex-direction: column;

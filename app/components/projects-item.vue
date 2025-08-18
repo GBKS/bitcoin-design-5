@@ -179,6 +179,10 @@ function selectTag(tag) {
     }
   }
 
+  @include mixins.media-query(medium) {
+    flex-basis: 33.33%;
+  }
+
   @include mixins.media-query(large) {
     min-height: 240px;
     flex-basis: 20%;

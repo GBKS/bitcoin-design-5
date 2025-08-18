@@ -47,7 +47,23 @@ import highlights from '@/data/highlights.js';
     }
   }
 
-  @include mixins.media-query(medium-up) {
+  @include mixins.media-query(medium) {
+    padding-left: 40px;
+    padding-right: 40px;
+    
+    .items {
+      flex-wrap: wrap;
+      align-items: flex-start;
+      gap: 40px;
+
+      > * {
+        flex-basis: 34%;
+        flex-grow: 1;
+      }
+    }
+  }
+
+  @include mixins.media-query(large) {
     .items {
       flex-wrap: wrap;
       align-items: flex-start;

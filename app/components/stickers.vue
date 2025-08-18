@@ -219,7 +219,7 @@
     }
   }
 
-  @include mixins.media-query(large) {
+  @include mixins.media-query(medium-up) {
     .items {
       display: flex;
       flex-direction: row;

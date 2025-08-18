@@ -50,7 +50,17 @@ import learnings from '@/data/learnings.js';
     }
   }
 
-  @include mixins.media-query(medium-up) {
+  @include mixins.media-query(medium) {
+    padding-left: 25px;
+    padding-right: 25px;
+    
+    .items {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @include mixins.media-query(large) {
     .items {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));

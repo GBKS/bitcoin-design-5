@@ -82,13 +82,33 @@ import info from '@/data/foundation.js';
     }
 
     .crew {
-      // flex-direction: column;
       flex-wrap: wrap;
       gap: 20px;
     }
   }
 
-  @include mixins.media-query(medium-up) {
+  @include mixins.media-query(medium) {
+    padding-left: 30px;
+    padding-right: 30px;
+
+    .items {
+      flex-wrap: wrap;
+
+      > * {
+        flex-basis: 34%;
+        flex-grow: 1;
+      }
+    }
+
+    .crew {
+      flex-wrap: wrap;
+      gap: 20px;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
+
+  @include mixins.media-query(medium) {
     
   }
 }

@@ -162,7 +162,7 @@
     text-wrap: balance;
   }
 
-  @include mixins.media-query(small) {
+  @include mixins.media-query(medium-down) {
     .content {
       display: flex;
       gap: 15px;
@@ -202,7 +202,25 @@
     }
   }
 
-  @include mixins.media-query(medium-up) {
+  @include mixins.media-query(medium) {
+    padding-left: 30px;
+    padding-right: 30px;
+    
+    .content {
+      .wrap {
+        .items {
+          width: auto;
+          max-width: none;
+
+          .item {
+            max-width: none;
+          }
+        }
+      }
+    }
+  }
+
+  @include mixins.media-query(large) {
     .content {
       > .road {
         display: none;

@@ -51,6 +51,7 @@ li {
     font-size: 24px;
     font-weight: 500;
     text-decoration: none;
+    transition: all 100ms animations.$ease;
 
     &.--outline {
         border: 2px solid black;
@@ -58,6 +59,12 @@ li {
 
         &.--black {
             border-color: black;
+            
+            &:hover {
+                background-color: rgba(black, 0.05);
+                border-color: #332A0A;
+                color: #332A0A;
+            }
         }
 
         &.--yellow {
@@ -70,12 +77,20 @@ li {
         color: white;
 
         &.--black {
-
+            &:hover {
+                background-color: #332A0A;
+                color: #FFF6D6;
+            }
         }
 
         &.--yellow {
             background-color: var(--yellow);
             color: black;
+            
+            &:hover {
+                background-color: #E5BD2B;
+                color: #332A0A;
+            }
         }
     }
 

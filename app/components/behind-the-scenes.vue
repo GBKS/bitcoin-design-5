@@ -77,7 +77,7 @@ import info from '@/data/behind-the-scenes.js';
     }
   }
 
-  @include mixins.media-query(small) {
+  @include mixins.media-query(medium-down) {
     .content {
       .illustration {
         p {

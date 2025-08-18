@@ -128,7 +128,12 @@ const listStyle = computed(() => {
     }
   }
 
-  @include mixins.media-query(medium-up) {
+  @include mixins.media-query(medium) {
+    font-size: 250px;
+    line-height: 1;
+  }
+
+  @include mixins.media-query(large) {
     font-size: 400px;
     line-height: 1;
   }

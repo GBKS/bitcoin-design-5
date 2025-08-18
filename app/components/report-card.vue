@@ -18,7 +18,9 @@ import Icons from '@/helpers/icons.js'
           <h3>Report card</h3>
           <div v-html="Icons.bPlus" />
           <h4>Name:</h4>
-          <p>Bitcoin Design Community</p>
+          <p>
+            <a href="https://bitcoin.design/" target="_blank" rel="me">Bitcoin Design Community</a>
+          </p>
         </div>
         <a
           class="cell"
@@ -278,6 +280,14 @@ import Icons from '@/helpers/icons.js'
           p {
             margin-top: 0;
             font-size: 30px;
+
+            a {
+              text-decoration: none;
+
+              &:hover {
+                text-decoration: underline;
+              }
+            }
           }
         }
       }
@@ -285,7 +295,6 @@ import Icons from '@/helpers/icons.js'
 
     .edge {
       position: absolute;
-
 
       &.-top-left-h,
       &.-top-right-h {
@@ -385,7 +394,7 @@ import Icons from '@/helpers/icons.js'
     }
   }
 
-  @include mixins.media-query(large) {
+  @include mixins.media-query(medium-up) {
     .content {
       .stats {
         // A 3 column grid where the first item spans 3 columns
