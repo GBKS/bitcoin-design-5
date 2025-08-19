@@ -81,20 +81,34 @@ const type = computed(() => {
     }
   }
 
+  @include mixins.media-query(small) {
+    .info {
+      h4 {
+        font-size: 17px;
+      }
+
+      p {
+        font-size: 17px;
+      }
+    }
+  }
+
+  @include mixins.media-query(medium) {
+    .info {
+      h4 {
+        font-size: 21px;
+      }
+    }
+  }
+
   @include mixins.media-query(medium-down) {
-    flex-basis: 40%;
+    flex-basis: 36%;
     flex-grow: 1;
     gap: 15px;
 
     img {
       width: 60px;
       height: 60px;
-    }
-
-    .info {
-      h4 {
-        font-size: 21px;
-      }
     }
   }
 

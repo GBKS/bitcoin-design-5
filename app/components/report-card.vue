@@ -412,6 +412,11 @@ import Icons from '@/helpers/icons.js'
         }
       }
 
+      .edge {
+        &.-top-left-h { width: 10px; left: -10px;}
+        &.-top-right-h { width: 10px; right: -10px;}
+      }
+
       .separator {
         left: -10px;
         width: calc(100% + 20px);

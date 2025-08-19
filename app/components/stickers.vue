@@ -216,6 +216,8 @@
       .column-right .sticker:nth-child(2) { transform: rotate(-3.16deg); }
       .column-right .sticker:nth-child(3) { transform: rotate(-4.94deg); }
       .column-right .sticker:nth-child(4) { transform: rotate(-6.06deg); }
+
+      .column-right > .sticker.-revolution strong { font-size: 36px; }
     }
   }
 

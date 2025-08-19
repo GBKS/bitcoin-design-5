@@ -13,15 +13,15 @@
 
     <div class="content">
       <div class="road -mobile">
-        <svg width="70" height="1345" viewBox="0 0 70 1345" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M35.3723 1330.04C35.3723 1207.62 1.65106 1188 15.2178 1107.18C28.7846 1026.35 55 968.28 55 888.239C55 808.198 15.9256 772.885 15.9256 670.872C15.9256 568.859 54.8182 557.873 54.8178 451.936C54.8174 345.999 15.9256 326.381 15.9256 235.354C15.9256 144.326 35.0971 141.187 35.0971 36.0352" stroke="#FA7D39" stroke-width="5" stroke-dasharray="10 10"/>
-          <path d="M50 1313.04L21 1342.04" stroke="#FA7D39" stroke-width="5" stroke-linecap="round"/>
-          <path d="M21 1313.04C26.9758 1320.07 42.8232 1335.3 50 1342.04" stroke="#FA7D39" stroke-width="5" stroke-linecap="round"/>
-          <circle cx="15" cy="1108.04" r="12" fill="#262626" stroke="#FA7D39" stroke-width="5"/>
-          <circle cx="55" cy="891.035" r="12" fill="#262626" stroke="#FA7D39" stroke-width="5"/>
-          <circle cx="15" cy="674.035" r="12" fill="#262626" stroke="#FA7D39" stroke-width="5"/>
-          <circle cx="55" cy="457.035" r="12" fill="#262626" stroke="#FA7D39" stroke-width="5"/>
-          <circle cx="15" cy="240.035" r="12" fill="#262626" stroke="#FA7D39" stroke-width="5"/>
+        <svg viewBox="0 0 70 1549" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M35.3723 1532C35.3723 1390.47 1.65106 1367.79 15.2178 1274.35C28.7846 1180.91 55 1113.77 55 1021.24C55 928.701 15.9256 887.876 15.9256 769.938C15.9256 652 54.8182 639.299 54.8178 516.825C54.8174 394.351 15.9256 371.67 15.9256 266.433C15.9256 161.196 35.0971 157.567 35.0971 36" stroke="#FA7D39" stroke-width="5" stroke-dasharray="10 10"/>
+          <path d="M50 1517L21 1546" stroke="#FA7D39" stroke-width="5" stroke-linecap="round"/>
+          <path d="M21 1517C26.9758 1524.03 42.8232 1539.26 50 1546" stroke="#FA7D39" stroke-width="5" stroke-linecap="round"/>
+          <circle cx="15" cy="1278" r="12" fill="#262626" stroke="#FA7D39" stroke-width="5"/>
+          <circle cx="55" cy="1027" r="12" fill="#262626" stroke="#FA7D39" stroke-width="5"/>
+          <circle cx="15" cy="776" r="12" fill="#262626" stroke="#FA7D39" stroke-width="5"/>
+          <circle cx="55" cy="525" r="12" fill="#262626" stroke="#FA7D39" stroke-width="5"/>
+          <circle cx="15" cy="274" r="12" fill="#262626" stroke="#FA7D39" stroke-width="5"/>
           <circle cx="35" cy="19.2617" r="16" stroke="#FA7D39" stroke-width="5"/>
         </svg>
       </div>
@@ -174,7 +174,7 @@
 
       > .road {
         position: relative;
-        aspect-ratio: 0.05204;
+        aspect-ratio: 0.04519;
         width: 80px;
 
         svg {
@@ -201,6 +201,16 @@
 
           .road {
             display: none;
+          }
+
+          .item {
+            h4 {
+              font-size: 21px;
+            }
+
+            p {
+              font-size: 17px;
+            }
           }
         }
       }
