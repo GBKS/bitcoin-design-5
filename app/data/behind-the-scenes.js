@@ -1,24 +1,23 @@
 export default {
   data: [
     {
-      name: "Learning in Public",
-      description: "We share works-in-progress, failed experiments, and half-formed ideas. This vulnerability has created a culture where people feel safe contributing imperfect work, knowing the community will help refine it rather than judge it."
+      description: "Nobody handed us a manual for running a decentralized design community. Half of what we tried failed, but the other half created something unstoppable. And here's what actually makes it work:"
     },
     {
-      name: "Intentionality",
-      description: "Good design requires dedicated focus. We coordinate events, provide structure for collaboration, and maintain shared resources—not to control the work, but to amplify what emerges from the community's collective efforts."
+      name: "Everything is public (even the embarrassing parts)",
+      description: "Every community call gets recorded. Every design file lives in open repos. Every half-baked idea gets posted in Discord. At first this was terrifying - who wants their rough sketches seen by hundreds? But transparency became our superpower. New designers ship faster because they see everyone else's messy process. No gatekeeping, no perfect portfolios required."
     },
     {
-      name: "Open by Default",
-      description: "Every community call is recorded and public. Design files live in shared repositories. Discussions happen in open Discord channels because we've learned that transparency prevents miscommunication and builds trust faster than private deliberations."
+      name: "We coordinate without commands",
+      description: "When people want to work on something, they organize calls and collaborate with whoever shows up. Some efforts attract two people, others twenty. The work shapes itself around who's passionate enough to push it forward."
     },
     {
-      name: "Async-First Collaboration",
-      description: "With contributors across time zones, we've built systems that don't require everyone to be online simultaneously. Yet we've discovered that scheduled design critiques and community calls remain essential—not just for feedback, but for building the relationships that make async work effective."
+      name: "Experience guides quality",
+      description: "The senior designers in our community became natural mentors. They review work not from obligation but from genuine care about Bitcoin's usability. Every PR, every design, gets eyes from people who've shipped real products. Standards emerge from shared respect, not enforcement."
     },
     {
-      name: "Inclusive Decision Making",
-      description: "Major community decisions happen through open processes. We document our mistakes and learning publicly. Every voice matters, regardless of experience level, because fresh perspectives consistently challenge our assumptions about bitcoin UX."
+      name: "Nothing dies if it's documented",
+      description: "With people flowing in and out, documentation became sacred. Every decision, every failure, every 'why we did it this way' gets written down so new contributors can jump in without starting from zero. The community's knowledge persists even as individuals move on."
     }
   ]
 }

@@ -23,11 +23,19 @@ import Icons from '@/helpers/icons.js'
           </p>
         </div>
         <a
-          class="cell"
+          class="cell -projects"
           href="#projects"
         >
           <h4>Projects improved:</h4>
           <p>80+</p>
+          <div class="stars">
+            <svg viewBox="0 0 36 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M16.2662 3.02357C16.8649 1.18095 19.4717 1.18094 20.0704 3.02357L22.4341 10.2981C22.7018 11.1222 23.4697 11.6801 24.3362 11.6801H31.9851C33.9226 11.6801 34.7281 14.1593 33.1607 15.2981L26.9726 19.7941C26.2716 20.3034 25.9783 21.2061 26.246 22.0301L28.6097 29.3047C29.2084 31.1473 27.0994 32.6796 25.532 31.5408L19.3439 27.0449C18.6429 26.5356 17.6937 26.5356 16.9927 27.0449L10.8046 31.5408C9.23719 32.6796 7.12823 31.1473 7.72693 29.3047L10.0906 22.0301C10.3583 21.2061 10.065 20.3034 9.36404 19.7941L3.17592 15.2981C1.60849 14.1593 2.41404 11.6801 4.35149 11.6801H12.0004C12.8669 11.6801 13.6348 11.1222 13.9025 10.2981L16.2662 3.02357Z" stroke="currentColor" stroke-width="3"/>
+            </svg>
+            <svg viewBox="0 0 36 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M16.2662 3.02357C16.8649 1.18095 19.4717 1.18094 20.0704 3.02357L22.4341 10.2981C22.7018 11.1222 23.4697 11.6801 24.3362 11.6801H31.9851C33.9226 11.6801 34.7281 14.1593 33.1607 15.2981L26.9726 19.7941C26.2716 20.3034 25.9783 21.2061 26.246 22.0301L28.6097 29.3047C29.2084 31.1473 27.0994 32.6796 25.532 31.5408L19.3439 27.0449C18.6429 26.5356 17.6937 26.5356 16.9927 27.0449L10.8046 31.5408C9.23719 32.6796 7.12823 31.1473 7.72693 29.3047L10.0906 22.0301C10.3583 21.2061 10.065 20.3034 9.36404 19.7941L3.17592 15.2981C1.60849 14.1593 2.41404 11.6801 4.35149 11.6801H12.0004C12.8669 11.6801 13.6348 11.1222 13.9025 10.2981L16.2662 3.02357Z" stroke="currentColor" stroke-width="3"/>
+            </svg>
+          </div>
         </a>
         <a
           class="cell"
@@ -290,6 +298,16 @@ import Icons from '@/helpers/icons.js'
             }
           }
         }
+
+        &.-projects {
+          .stars {
+            svg {
+              width: 30px;
+              height: 30px;
+              color: var(--blue);
+            }
+          }
+        }
       }
     }
 
@@ -374,6 +392,20 @@ import Icons from '@/helpers/icons.js'
             border-top: 1px dashed black;
           }
 
+          &.-projects {
+            .stars {
+              svg {
+                &:first-child {
+                  transform: translate(40px, 10px) rotate(30deg);
+                }
+
+                &:nth-child(2) {
+                  transform: translate(50px, -5px) rotate(-3.21deg);
+                }
+              }
+            }
+          }
+
           &:last-child {
             padding-bottom: 60px;
           }
@@ -423,6 +455,20 @@ import Icons from '@/helpers/icons.js'
 
           &:not(.-header) {
             min-height: 180px;
+          }
+
+          &.-projects {
+            .stars {
+              svg {
+                &:first-child {
+                  transform: translate(30px, 20px) rotate(30deg);
+                }
+
+                &:nth-child(2) {
+                  transform: translate(40px, 0px) rotate(-3.21deg);
+                }
+              }
+            }
           }
         }
       }

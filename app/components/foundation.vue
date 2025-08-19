@@ -10,7 +10,7 @@ import info from '@/data/foundation.js';
 
     <div class="section-header -yellow -white">
       <h2>The Foundation</h2>
-      <p>The Bitcoin Design Foundation exists to sustain and amplify community efforts.</p>
+      <p>The Bitcoin Design Foundation enables community efforts.</p>
     </div>
 
       <a
@@ -108,8 +108,13 @@ import info from '@/data/foundation.js';
     }
   }
 
-  @include mixins.media-query(medium) {
-    
+  @include mixins.media-query(large) {
+    .items {
+      > * {
+        flex-basis: 21%;
+        flex-grow: 1;
+      }
+    }
   }
 }
 

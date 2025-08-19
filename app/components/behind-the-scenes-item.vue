@@ -11,7 +11,7 @@ const props = defineProps({
 
 <template>
   <div class="behind-the-scenes-item">
-    <h4>{{ info.name }}</h4>
+    <h4 v-if="info.name">{{ info.name }}</h4>
     <p>{{ info.description }}</p>
   </div>
 </template>

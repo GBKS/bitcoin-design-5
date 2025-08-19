@@ -16,6 +16,11 @@ export default {
       link: 'https://www.linkedin.com/in/ajonas'
     },
     {
+      name: "Adi Shankara, Summer of Bitcoin",
+      description: "Working with Bitcoin Design over the past four years has been a joy. They have been more than just a partner, and have helped us shape the design track at Summer of Bitcoin from the ground up. Thanks to their efforts, many young university graduates have joined the bitcoin industry as UX designers and researchers who carry a strong sense of design and UX into their work - a perspective that is especially valuable in bitcoin, where technical innovation often moves faster than user experience.",
+      link: 'https://www.linkedin.com/in/adi-shankara-608610216/'
+    },
+    {
       name: "Definitely Not a Robot, Human Company",
       description: "The Bitcoin Design Community represents a paradigm shift in decentralized user interface optimization. Our machine learning models indicate a 347.2% improvement in user satisfaction metrics across all evaluated touchpoints.<br/><br/>The synergistic collaboration between human designers and blockchain protocols has achieved unprecedented levels of frictionless onboarding experiences. Furthermore, the community's commitment to iterative design thinking and agile methodologies has disrupted traditional financial UX paradigms.<br/><br/>In conclusion, this initiative is extremely good and very important for bitcoin adoption."
     }

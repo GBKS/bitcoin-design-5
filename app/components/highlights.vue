@@ -9,8 +9,8 @@ import highlights from '@/data/highlights.js';
     <Separator />
     
     <div class="section-header">
-      <h2>Collaboration Highlights</h2>
-      <p>Zooming in on some of the unique community efforts that made a big impact.</p>
+      <h2>Collaborative Wins</h2>
+      <p>The bigger achievements with many fingerprints on them.</p>
     </div>
 
     <div class="items">

@@ -96,6 +96,7 @@
   align-items: center;
   gap: 50px;
   padding: 75px 15px;
+  position: relative;
 
   .content {
     width: 100%;
@@ -156,7 +157,7 @@
 
   > p {
     max-width: 800px;
-    color: white;
+    color: #e9e9e9;
     text-align: center;
     font-size: 24px;
     text-wrap: balance;

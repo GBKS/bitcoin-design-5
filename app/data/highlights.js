@@ -20,7 +20,7 @@ export default {
     {
       image: 'education',
       name: "Education programs",
-      type: "Learning Bitcoin & Design",
+      type: "Growing designers worldwide",
       description: 'From online reading clubs to hands-on <a href="https://www.bitcoinuxbootcamp.xyz" target="_blank">UX bootcamp</a>s spanning Africa, South America, and India through partnerships with <a href="https://bitshala.org" target="_blank">Bitshala</a> and <a href="https://www.summerofbitcoin.org" target="_blank">Summer of Bitcoin</a>, the community has nurtured a global network of bitcoin designers and developers.'
     },
     {

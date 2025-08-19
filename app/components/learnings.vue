@@ -21,6 +21,8 @@ import learnings from '@/data/learnings.js';
         :info="info"
       />
     </div>
+
+    <p>That’s obviously not all, but would you really want to see another 500 notes here?</p>
   </section>
 </template>
 
@@ -40,6 +42,14 @@ import learnings from '@/data/learnings.js';
     max-width: 960px;
     width: 100%;
     gap: 0px;
+  }
+
+  > p {
+    margin-top: 30px;
+    max-width: 600px;
+    text-align: center;
+    color: #e9e9e9;
+    text-wrap: balance;
   }
 
   @include mixins.media-query(small) {

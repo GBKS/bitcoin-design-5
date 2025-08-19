@@ -77,6 +77,7 @@ const openOverlay = (info) => {
       > * {
         flex-basis: 36%;
         flex-grow: 1;
+        max-width: 500px;
       }
     }
   }

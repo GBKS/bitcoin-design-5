@@ -19,8 +19,8 @@
     </div>
     <div class="copy">
       <h1>5 years of<br/><a href="https://bitcoin.design/" target="_blank" rel="me">Bitcoin Design</a></h1>
-      <h2>Designing Bitcoin For Everyone, With Everyone</h2>
-      <p>2020–2025. Five years. Hundreds of calls. Thousands of contributors. One global design community building Bitcoin UX in public.</p>
+      <h2>Designing Bitcoin For Everyone, With Everyone.</h2>
+      <p>2020–2025. Five years. Hundreds of calls. Thousands of contributors. One global community building Bitcoin UX in public.</p>
     </div>
   </section>
 </template>
