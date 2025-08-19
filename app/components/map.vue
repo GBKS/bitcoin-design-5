@@ -88,8 +88,8 @@ onMounted(() => {
     <Separator />
 
     <div class="section-header">
-      <h2>Global Reach</h2>
-      <p>We respect privacy, so we are not sure where everyone in the community is from. But here’s some data we gathered from <a href="https://bitcoindesign.substack.com" target="_blank">Substack</a>, <a href="https://www.youtube.com/c/BitcoinDesign" target="_blank">YouTube</a> and <a href="https://info.bitcoin.design/share/V7Iv1L3zfTzbfmEp/bitcoin.design" target="_blank">Umami analytics.</a></p>
+      <h2>Worldwide Curiosity</h2>
+      <p>We don't track who's contributing from where, because privacy matters! But from the breadcrumbs people leave (<a href="https://www.youtube.com/c/BitcoinDesign" target="_blank">views</a>, <a href="https://info.bitcoin.design/share/V7Iv1L3zfTzbfmEp/bitcoin.design" target="_blank">visits</a>, <a href="https://bitcoindesign.substack.com" target="_blank">subscribes</a>), bitcoin design interest spans every continent.</p>
     </div>
 
     <div class="content">

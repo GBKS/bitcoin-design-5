@@ -56,7 +56,7 @@ onMounted(() => {
     <Separator />
 
     <div class="section-header -yellow">
-      <h2>80+ projects touched</h2>
+      <h2>80+ projects improved</h2>
       <p>Where the community made its marks.</p>
     </div>
 

@@ -53,6 +53,14 @@ li {
     text-decoration: none;
     transition: all 100ms animations.$ease;
 
+    svg {
+        width: 26px;
+        height: 26px;
+        vertical-align: middle;
+        transform: translateY(-2px);
+        margin-left: 5px;
+    }
+
     &.--outline {
         border: 2px solid black;
         color: black;

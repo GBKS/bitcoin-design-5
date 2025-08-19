@@ -45,28 +45,28 @@
           </div>  
 
           <div class="item">
-            <h4>Growing Our Global Community</h4>
-            <p>We need more designers from around the world shaping bitcoin's future.</p>
+            <h4>Growing our global community</h4>
+            <p>We need designers from every corner of the world shaping bitcoin's future. Different cultures, different needs, different solutions.</p>
           </div>
 
           <div class="item">
-            <h4>Making Research Everyone's Superpower</h4>
-            <p>We're building shared research tools so any bitcoin project can make smart design decisions without expensive studies.</p>
+            <h4>Making research a shared resource</h4>
+            <p>Imagine if every bitcoin project could tap into user insights without starting from zero. We're building the tools to make that happen.</p>
           </div>
 
           <div class="item">
-            <h4>Creating Design That Works Together</h4>
-            <p>We're building shared design patterns and tools so users can easily move between different bitcoin apps instead of relearning everything.</p>
+            <h4>Creating harmony between apps</h4>
+            <p>Different bitcoin apps use different words for the same things. Different flows for the same actions. Users shouldn't need a PhD to send money. We're working on shared patterns that let bitcoin apps play nicely together.</p>
           </div>
 
           <div class="item">
-            <h4>Teaching the Next Generation</h4>
-            <p>Bitcoin needs designers who understand both good UX and how bitcoin works—we're training them through courses and mentorship.</p>
+            <h4>Next generation of builders</h4>
+            <p>Bitcoin needs people who understand great UX and how bitcoin actually works. We're working on initiatives to educate and create that rare breed.</p>
           </div>
 
           <div class="item">
-            <h4>Building Something That Lasts</h4>
-            <p>We're developing sustainable funding and career paths so talented designers can focus on bitcoin full-time, not just nights and weekends.</p>
+            <h4>Making bitcoin design a sustainable career choice</h4>
+            <p>The best designers can't survive on passion alone. We're creating funding paths so people can focus on bitcoin full-time, not just after their day jobs.</p>
           </div>
 
         </div>
@@ -82,7 +82,7 @@
       </div>
     </div>
     
-    <p>The next five years will build on everything we've learned, guided by the same principle that started this community: design bitcoin for everyone, with everyone.</p>
+    <p>The next five years will build on everything we've learned, guided by the same principle that started this community: <span>design bitcoin for everyone, with everyone.</span></p>
   </section>
 </template>
 
@@ -96,6 +96,7 @@
   align-items: center;
   gap: 50px;
   padding: 75px 15px;
+  position: relative;
 
   .content {
     width: 100%;
@@ -141,7 +142,7 @@
             font-size: 24px;
             font-weight: 500;
             color: white;
-
+            text-wrap: balance;
           }
 
           p {
@@ -156,10 +157,14 @@
 
   > p {
     max-width: 800px;
-    color: white;
+    color: #e9e9e9;
     text-align: center;
     font-size: 24px;
     text-wrap: balance;
+
+    span {
+      color: var(--yellow);
+    }
   }
 
   @include mixins.media-query(medium-down) {
@@ -256,7 +261,7 @@
 
             &:nth-child(3) {
               margin-top: -30px;
-              transform: translateX(100%);
+              transform: translateX(105%);
             }
 
             &:nth-child(4) {
@@ -271,7 +276,7 @@
             &:nth-child(6) {
               margin-top: 40px;
               padding-bottom: 30px;
-              transform: translateX(-100%);
+              transform: translateX(-90%);
             }
           }
         }

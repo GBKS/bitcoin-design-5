@@ -107,6 +107,7 @@ function nextImage() {
       padding: 0;
       background: transparent;
       cursor: pointer;
+      height: 100%;
 
       img {
         width: 100%;

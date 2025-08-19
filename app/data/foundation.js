@@ -2,19 +2,19 @@ export default {
   data: [
     {
       name: "Fundraising",
-      description: "Secures funding from diverse sources to ensure the community's long-term sustainability. Organizations like Spiral, Human Rights Foundation, Chaincode, and BitBox provide support, along with individual contributors who believe in the mission."
+      description: "The Foundation secures grants from orgs that understand the mission - Spiral, Human Rights Foundation, Chaincode, BitBox, and individual donors. They fund the infrastructure, not the direction. The community decides what needs building, the Foundation just makes sure there's fuel in the tank."
     },
     {
       name: "Grant Distribution",
-      description: "Funds the work that matters most to bitcoin's design future. Grants support contributors working on research, development, education, and community initiatives that advance bitcoin UX for everyone."
+      description: "Funding flows to contributors doing critical work. It makes sure important efforts don't die from lack of resources. Research, tools, education - whatever the community identifies as essential for advancing bitcoin UX, gets supported."
     },
     {
-      name: "Coordination",
-      description: "Handles the behind-the-scenes work that keeps the community thriving. The team maintains platforms, organizes events, and provides administrative support, creating the infrastructure that enables great design work to happen."
+      name: "Operations",
+      description: "Someone has to keep the lights on - maintaining servers, organizing events, handling the administrative maze. The Foundation takes care of the boring but necessary stuff so designers can focus on what they do best. Think of it as the backstage crew that keeps the show running."
     },
     {
       name: "Partnerships",
-      description: "Builds relationships that extend impact beyond the community. Through collaborations with organizations focused on human rights, education, and development, the Foundation ensures design work reaches where it's needed most."
+      description: "The Foundation also builds relationships with orgs working on human rights, education, and financial inclusion. These partnerships ensure bitcoin design knowledge reaches emerging markets and underserved communities. Good design should be accessible wherever bitcoin is solving real problems."
     }
   ],
   crew: [
