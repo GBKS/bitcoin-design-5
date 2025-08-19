@@ -1,6 +1,11 @@
 export default {
   data: [
     {
+      name: "Basak Haznedaroglu, Blockstream",
+      description: "Watching this community take shape has been remarkable. What began as an idea, to make Bitcoin more intuitive and accessible, has grown into a movement that carried the technology beyond code and into the realm of human experience.<br/><br/>Over time, I’ve seen how it has lowered the learning curve for designers, giving makers the tools and confidence to design with purpose. I’ve seen how it has held true to a vision: injecting human-centered design into Bitcoin technologies so that they are not only functional, but meaningful. Most importantly, I’ve seen it create a platform for connection, a place where people exchange stories, share resources, and learn from one another.<br/><br/>Rather than treating Bitcoin as a purely technical system, Bitcoin Design Community has framed it as a human story, one about empowerment, financial independence, resilience, and sustainability. It reminds us, and will continue to remind us, that the future of decentralized finance will not be built by technology alone, but by people who care deeply about humanity and about building what truly matters. I am thrilled to see it evolve even further.",
+      link: 'https://www.linkedin.com/in/basak-haznedaroglu-61099634/'
+    },
+    {
       name: "Steve Lee, Spiral",
       description: "The original vision for the Bitcoin Design Community and Design Guide remains unchanged: to create best practice guidelines for the unique challenges of Bitcoin product design, and to empower builders with resources that accelerate development and promote consistency across the decentralized ecosystem.<br/><br/>Over the past five years, it’s been rewarding to see a resilient core community take shape, a foundational Design Guide emerge, and a range of impactful projects come to life. Looking ahead, we must evolve with the tools of our time—particularly by embracing AI’s growing role in product design, prototyping, and development.<br/><br/>To keep pace, the Design Guide must reflect this shift, and we must actively attract and support world-class designers to make the community and guide indispensable to building great Bitcoin products.",
       link: 'https://www.linkedin.com/in/stevenjlee/'
