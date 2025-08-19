@@ -17,7 +17,7 @@ import Icons from '@/helpers/icons.js'
         <a href="#stories">Stories</a>
         <a href="#highlights">Highlights</a>
         <a href="#testimonials">Testimonials</a>
-        <a href="#map">Map</a>
+        <a href="#map">Global Reach</a>
         <a href="#behind-the-scenes">Behind the Scenes</a>
         <a href="#foundation">Foundation</a>
         <a href="#learnings">Learnings</a>

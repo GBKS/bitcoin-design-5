@@ -6,7 +6,7 @@ export default {
     },
     {
       name: "Grant Distribution",
-      description: "Funding flows to contributors doing critical work. It makes sure important efforts don't die from lack of resources. Research, tools, education - whatever the community identifies as essential for advancing Bitcoin UX, gets supported."
+      description: "Funding flows to contributors doing critical work. It makes sure important efforts don't die from lack of resources. Research, tools, education - whatever the community identifies as essential for advancing bitcoin UX, gets supported."
     },
     {
       name: "Operations",
@@ -14,7 +14,7 @@ export default {
     },
     {
       name: "Partnerships",
-      description: "The Foundation also builds relationships with orgs working on human rights, education, and financial inclusion. These partnerships ensure Bitcoin design knowledge reaches emerging markets and underserved communities. Good design should be accessible wherever Bitcoin is solving real problems."
+      description: "The Foundation also builds relationships with orgs working on human rights, education, and financial inclusion. These partnerships ensure bitcoin design knowledge reaches emerging markets and underserved communities. Good design should be accessible wherever bitcoin is solving real problems."
     }
   ],
   crew: [

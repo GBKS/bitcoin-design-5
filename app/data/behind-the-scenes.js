@@ -13,11 +13,11 @@ export default {
     },
     {
       name: "Experience guides quality",
-      description: "The senior designers in our community became natural mentors. They review work not from obligation but from genuine care about Bitcoin's usability. Every PR, every design, gets eyes from people who've shipped real products. Standards emerge from shared respect, not enforcement."
+      description: "The senior designers in our community become natural mentors. They review work not because they have to, but because they care. Every PR, every design, gets eyes from people who've shipped real products. Quality emerges from respect, not hierarchy."
     },
     {
       name: "Nothing dies if it's documented",
-      description: "With people flowing in and out, documentation became sacred. Every decision, every failure, every 'why we did it this way' gets written down so new contributors can jump in without starting from zero. The community's knowledge persists even as individuals move on."
+      description: "With people flowing in and out, documentation becomes sacred. Every decision, every failure, every 'why we did it this way' gets written down so new contributors can jump in without starting from zero. The community's knowledge persists even as individuals move on."
     }
   ]
 }

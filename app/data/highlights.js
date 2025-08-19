@@ -3,7 +3,7 @@ export default {
     {
       image: 'guide',
       name: "Bitcoin Design Guide",
-      type: "Comprehensive Design Resource",
+      type: "The guide we wished existed",
       description: "A complete reference for building bitcoin applications—from basic principles to detailed wallet concepts, technical explanations, and real-world case studies—created collaboratively by the community.",
       link: 'https://bitcoin.design/guide/'
     },
@@ -14,7 +14,7 @@ export default {
         'bitcoinqr'
       ],
       name: "Adoption campaigns",
-      type: "Standards & Interoperability",
+      type: "Standards that just make sense",
       description: 'Community-led efforts to promote <a href="https://bitcoinqr.dev/" target="_blank">unified QR codes</a>, <a href="https://whentaproot.org" target="_blank">Taproot</a> adoption, and <a href="https://bolt12.org" target="_blank">BOLT 12</a> implementation across bitcoin applications for better user experiences.'
     },
     {

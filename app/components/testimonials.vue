@@ -19,7 +19,7 @@ const openOverlay = (info) => {
     <Separator />
 
     <div class="section-header">
-      <h2>Testimonials</h2>
+      <h2>Word on the street</h2>
       <p>Our community creates a lot of buzz. Here’s what people are saying about it.</p>
     </div>
     

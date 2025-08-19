@@ -18,7 +18,7 @@ import info from '@/data/foundation.js';
         href="https://bitcoindesignfoundation.org/"
         rel="me"
         target="_blank" 
-      >Visit the website</a>
+      >Learn more</a>
 
     <div class="items">
       <FoundationItem

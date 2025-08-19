@@ -89,7 +89,7 @@ onMounted(() => {
 
     <div class="section-header">
       <h2>Worldwide Curiosity</h2>
-      <p>We don't track who's contributing from where - because privacy matters! But from the breadcrumbs people leave (<a href="https://www.youtube.com/c/BitcoinDesign" target="_blank">views</a>, <a href="https://info.bitcoin.design/share/V7Iv1L3zfTzbfmEp/bitcoin.design" target="_blank">visits</a>, <a href="https://bitcoindesign.substack.com" target="_blank">subscribes</a>, etc.), bitcoin design interest spans every continent.</p>
+      <p>We don't track who's contributing from where, because privacy matters! But from the breadcrumbs people leave (<a href="https://www.youtube.com/c/BitcoinDesign" target="_blank">views</a>, <a href="https://info.bitcoin.design/share/V7Iv1L3zfTzbfmEp/bitcoin.design" target="_blank">visits</a>, <a href="https://bitcoindesign.substack.com" target="_blank">subscribes</a>), bitcoin design interest spans every continent.</p>
     </div>
 
     <div class="content">
