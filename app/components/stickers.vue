@@ -45,7 +45,7 @@
         </div>
         <div class="row-three">
           <div class="sticker -looks">
-            <p><strong>Bitcoin<br/>doesn't<br/>care how<br/>i looks.</strong><br/>But users do.</p>
+            <p><strong>Bitcoin<br/>doesn't<br/>care how<br/>it looks.</strong><br/>But users do.</p>
           </div>
           <div class="sticker -adoption">
             <p>Adoption is<br/>1% innovation.<br/><strong>99% user<br/>experience.</strong></p>
