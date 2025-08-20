@@ -42,12 +42,12 @@ export default defineNuxtConfig({
         { name: 'description', content: "Celebrating 5 years of the Bitcoin Design Community - showcasing our journey of creating open-source design resources, mentoring programs, and collaborative projects that improve bitcoin UX for everyone." },
         { property: 'og:description', content: "Celebrating 5 years of the Bitcoin Design Community - showcasing our journey of creating open-source design resources, mentoring programs, and collaborative projects that improve bitcoin UX for everyone." },
   
-        { property: 'og:url', content: 'https://5.bitcoin.design' },
+        { property: 'og:url', content: 'https://five.bitcoin.design' },
         { property: 'og:site_name', content: 'Bitcoin Design is 5 years old!' },
-        { property: 'og:image', content: 'https://5.bitcoin.design/preview.jpg' },
+        { property: 'og:image', content: 'https://five.bitcoin.design/images/preview.jpg' },
   
         { name: 'twitter:card', content: 'summary' },
-        { property: 'twitter:image', content: 'https://5.bitcoin.design/preview.jpg' },
+        { property: 'twitter:image', content: 'https://five.bitcoin.design/images/preview.jpg' },
         { property: 'twitter:title', content: 'Bitcoin Design is 5 years old!' },
         { name: 'twitter:site', content: '@bitcoin_design' },
       ],
